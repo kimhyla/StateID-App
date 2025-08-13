@@ -10,3 +10,5 @@
 9) Verify: `(Invoke-WebRequest http://localhost:8787/healthz -UseBasicParsing).StatusCode` → `200`
 10) Stop: `Ctrl+C` (or `docker stop stateid`)
 **Troubleshoot:** `Test-NetConnection localhost -Port 8787` → `False` means port free; else `netstat -ano | findstr :8787` then `taskkill /PID <pid> /F`.
+
+
