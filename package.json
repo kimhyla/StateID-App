@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "node src/server.js",
-    "smoke": "powershell -Command \"(Invoke-WebRequest http://localhost:8787/healthz -UseBasicParsing).Content | Write-Output\"",
-    "test": "node --test test/*.test.js"
+    "dev": "nodemon -q --watch src src/server.js",
+    "smoke": "powershell -File scripts/smoke.ps1",
+    "test": "node --test test/*.test.js",
+    "test:local": "powershell -File scripts/test.ps1"
   },
   "engines": { "node": ">=18" }
 }
