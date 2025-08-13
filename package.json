@@ -1,0 +1,13 @@
+{
+  "name": "stateid-app",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "smoke": "powershell -Command \"(Invoke-WebRequest http://localhost:8787/healthz -UseBasicParsing).Content | Write-Output\"",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=18" }
+}
