@@ -1,0 +1,9 @@
+node_modules/
+.git/
+.github/
+.vscode/
+.env
+.env.*
+Dockerfile
+test/
+scripts/
