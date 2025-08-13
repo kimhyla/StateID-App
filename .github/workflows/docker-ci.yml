@@ -1,23 +1,44 @@
 name: ci-docker
-on: [push]
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   docker:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
       - name: Build image
-        run: docker build -t stateid-app:test .
+        run: docker build -t stateid-app:${{ github.sha }} .
+
       - name: Run container
-        run: docker run -d -p 8787:8787 --name stateid stateid-app:test
+        run: docker run -d --rm -p 8787:8787 --name stateid stateid-app:${{ github.sha }}
+
       - name: Wait for /healthz
         run: |
-          for i in {1..30}; do
-            curl -fsS http://localhost:8787/healthz && exit 0
+          echo "Waiting for http://localhost:8787/healthz ..."
+          for i in {1..60}; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8787/healthz || true)
+            if [ "$code" = "200" ]; then
+              echo "Health OK"
+              exit 0
+            fi
             sleep 1
           done
-          echo "healthz check failed"; docker logs stateid; exit 1
+          echo "Health check failed"
+          docker logs stateid || true
+          exit 1
+
       - name: Stop container
         if: always()
-        run: docker rm -f stateid
+        run: docker rm -f stateid || true
