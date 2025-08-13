@@ -12,4 +12,15 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
+      - name: Start server
+        run: node src/server.js &
+      - name: Wait for /healthz
+        run: |
+          for i in {1..20}; do
+            curl -fsS http://localhost:8787/healthz && break
+            sleep 0.5
+          done
       - run: npm test
+      - name: Stop server
+        if: always()
+        run: pkill -f "node src/server.js" || true
