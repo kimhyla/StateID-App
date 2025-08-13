@@ -1,0 +1,23 @@
+name: ci-docker
+on: [push]
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t stateid-app:test .
+      - name: Run container
+        run: docker run -d -p 8787:8787 --name stateid stateid-app:test
+      - name: Wait for /healthz
+        run: |
+          for i in {1..30}; do
+            curl -fsS http://localhost:8787/healthz && exit 0
+            sleep 1
+          done
+          echo "healthz check failed"; docker logs stateid; exit 1
+      - name: Stop container
+        if: always()
+        run: docker rm -f stateid
