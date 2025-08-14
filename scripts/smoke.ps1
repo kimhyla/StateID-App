@@ -1,11 +1,17 @@
-param([string]$Url="http://localhost:8787/healthz")
-$ErrorActionPreference="Stop"
-try {
-  $r = Invoke-WebRequest $Url -UseBasicParsing -TimeoutSec 3
-  $r.Content | Write-Output
-  Write-Host "Smoke OK ($($r.StatusCode))"
-  exit 0
-} catch {
-  Write-Error ("Smoke failed for {0}: {1}" -f $Url, $_.Exception.Message)
-  exit 1
-}
+﻿param(
+  [string]$BaseUrl = "http://localhost:8787"
+)
+
+Write-Host "=== StateID smoke ==="
+
+# /healthz
+$health = Invoke-WebRequest -Uri "$BaseUrl/healthz" -UseBasicParsing
+if ($health.StatusCode -ne 200) { Write-Error "/healthz failed"; exit 1 }
+Write-Host "/healthz OK"
+
+# /version
+$ver = Invoke-WebRequest -Uri "$BaseUrl/version" -UseBasicParsing
+if ($ver.StatusCode -ne 200) { Write-Error "/version failed"; exit 1 }
+Write-Host "/version OK"
+
+Write-Host "Smoke passed."
