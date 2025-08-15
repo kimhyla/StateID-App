@@ -9,4 +9,4 @@ map-tokens: 1024
 test-cmd: "node --test test/*.test.js"
 show-diffs: true
 
-weak-model: gpt-4.1-nano
+weak-model: gpt-4.1-mini
