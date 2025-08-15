@@ -55,14 +55,30 @@ const server = http.createServer((req, res) => {
       res.end(JSON.stringify({ error: 'query required' }));
       return;
     }
+
+    // Optional limit validation
+    const limitRaw = query?.limit;
+    let limit;
+    if (limitRaw !== undefined) {
+      const s = String(limitRaw).trim();
+      if (!/^\d+$/.test(s) || Number(s) <= 0) {
+        res.writeHead(400);
+        res.end(JSON.stringify({ error: 'invalid limit' }));
+        return;
+      }
+      limit = Number(s);
+    }
+
     const needle = q.toLowerCase();
     const items = IDS.filter(
       (x) =>
         x.id.toLowerCase().includes(needle) ||
         x.name.toLowerCase().includes(needle)
     );
+
+    const result = limit !== undefined ? items.slice(0, limit) : items;
     res.writeHead(200);
-    res.end(JSON.stringify({ items }));
+    res.end(JSON.stringify({ items: result }));
     return;
   }
 
