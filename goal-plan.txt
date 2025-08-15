@@ -1,0 +1,30 @@
+﻿Read docs/spec/mvp.md and produce a concrete plan as docs only (no code changes):
+
+Create:
+1) docs/plan/roadmap.md — 8–12 milestones from MVP:
+   - Scope & user outcomes
+   - Acceptance criteria (testable)
+   - Key dependencies
+   - T-shirt size + rough effort (person-days)
+   - Branch naming (feat/<slug>) and PR checkpoints
+
+2) docs/plan/risks.md — top risks & mitigations (tech, product, privacy, calendar edge cases),
+   with risk level & owner.
+
+3) docs/plan/test-matrix.md — what we will test and where (unit, integration, end-to-end),
+   including calendar rewrite cases (Google/Outlook), wrapper p95 latency, fail-open, and exports.
+
+4) docs/arch/overview.md — high-level architecture:
+   - Wrapper/redirect service
+   - Calendar rewriter (Google/Graph)
+   - Desktop agent
+   - Ledger & export (local Named Audit Pack)
+   - Data shapes and boundaries
+   - Feature flags/kill switches; observability
+
+Rules:
+- Do NOT touch src/ or tests/.
+- Keep it actionable and tied to MVP acceptance criteria.
+- Include a two-week Sprint 1 cut with concrete tasks we can do immediately.
+
+Stop after writing the docs.
