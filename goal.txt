@@ -1,0 +1,5 @@
+Goal 1: Confirm GET /ids/search behavior & tests match spec:
+- case-insensitive match on id or name
+- missing/empty "query" -> 400 {error:"query required"}
+No new deps. Make one batched edit touching src/server.js and tests only.
+Then run /test and stop; ask me to run smoke.
