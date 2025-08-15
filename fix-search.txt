@@ -1,5 +1,0 @@
-Implement GET /ids/search in src/server.js to pass tests:
-- If query param "query" is missing or only whitespace, return 400 with JSON { "error": "query required" }.
-- Otherwise, case-insensitive match "query" against each item's id or name.
-- Response: 200 with { items: [ ...matched items... ] }.
-Do not add new deps. Keep Node 22 ESM style. One batched edit touching only src/server.js and tests if needed. Then stop.
