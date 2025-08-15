@@ -1,16 +1,15 @@
 # StateID-App
 
-Tiny Node (v22) HTTP server with a few endpoints and CI/Docker. No external deps; uses built-in `http`.
+Tiny Node (v22 ESM) HTTP server with a small “StateID” API, tests, smoke script, Docker, and CI.
 
 ## Routes
-- `GET /healthz` → `{ "status": "ok" }`
-- `GET /version` → `{ "version": "x.y.z" }`
-- `GET /ids` → `{ "items": [ { "id": "CA", "name": "California" }, { "id": "NY" }, { "id": "TX" } ] }`
-- `GET /ids/:id` → returns a single item (e.g. `/ids/CA`) or `404 { "error": "Not found" }`
+- `GET /healthz` → `{ "status":"ok" }`
+- `GET /version` → `{ "version":"x.y.z" }` (from `package.json`)
+- `GET /ids` → `{ "items":[ { "id":"CA","name":"California" }, { "id":"NY","name":"New York" }, { "id":"TX","name":"Texas" } ] }`
+- `GET /ids/:id` → a single item or `404 { "error":"Not found" }`
+- `GET /ids/search?query=…` → items whose `id` or `name` contains the query (case-insensitive); missing/empty query → `400 { "error":"query required" }`
 
-## Quickstart
+## Quickstart (Windows / PowerShell)
 ```powershell
 npm ci
-npm run dev
-(Invoke-WebRequest http://localhost:8787/healthz -UseBasicParsing).Content
-(Invoke-WebRequest http://localhost:8787/version -UseBasicParsing).Content
+npm run dev   # starts http://localhost:8787
