@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // NEW: GET /ids/search?query=... -> { items: [...] }
+  // GET /ids/search?query=... -> { items: [...] }
   if (method === 'GET' && pathname === '/ids/search') {
     const q = (query?.query ?? '').trim();
     if (!q) {
