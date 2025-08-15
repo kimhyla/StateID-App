@@ -59,6 +59,14 @@ function saveIds() {
   }
 }
 
+// Simple "ledger" write — may throw when LEDGER_THROW=true
+function ledgerWrite(event) {
+  if (process.env.LEDGER_THROW === 'true' || process.env.LEDGER_THROW === '1') {
+    throw new Error('ledger write failed');
+  }
+  // no-op
+}
+
 // Minimal JSON body parser (<=1MB). Throws on invalid JSON or too large.
 function readJsonBody(req, limitBytes = 1024 * 1024) {
   return new Promise((resolve, reject) => {
