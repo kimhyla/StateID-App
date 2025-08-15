@@ -1,15 +1,22 @@
+# Node
 node_modules/
-.env
-.DS_Store
-.aider*
-.continue/
-*.aider
-.continue/
-*.aider
+npm-debug.log*
 
+# OS/Editor
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Aider / Continue artifacts
+.aider*
+*.aider
+.continue/
+
+# Keep this config tracked
 !.aider.conf.yml
 
-# aider helper files
-*.aider
+# Local helper files (don’t commit)
 goal.txt
 fix-search.txt
