@@ -3,6 +3,7 @@
 import http from 'node:http';
 import { parse as parseUrl, fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 const HOST = '0.0.0.0';
@@ -13,12 +14,26 @@ const pkg = JSON.parse(
   readFileSync(new URL('../package.json', import.meta.url), 'utf8')
 );
 
-// Tiny sample “State IDs” used by /ids and /ids/:id
-const IDS = [
-  { id: 'CA', name: 'California' },
-  { id: 'NY', name: 'New York' },
-  { id: 'TX', name: 'Texas' },
-];
+ // IDs loaded from data/ids.json at startup
+let IDS = [];
+let idsLoadFailed = false;
+
+try {
+  const idsUrl = new URL('../data/ids.json', import.meta.url);
+  const text = await readFile(idsUrl, 'utf8');
+  const parsed = JSON.parse(text);
+  if (!Array.isArray(parsed)) throw new Error('ids not array');
+  const normalized = parsed.map((x) => {
+    if (!x || typeof x !== 'object') throw new Error('bad item');
+    const id = String(x.id ?? '').trim();
+    const name = String(x.name ?? '').trim();
+    if (!id || !name) throw new Error('bad item fields');
+    return { id, name };
+  });
+  IDS = normalized;
+} catch {
+  idsLoadFailed = true;
+}
 
 const server = http.createServer((req, res) => {
   const { method } = req;
@@ -50,6 +65,15 @@ const server = http.createServer((req, res) => {
     res.writeHead(200);
     res.end(JSON.stringify({ version: pkg.version }));
     return;
+  }
+
+  // Guard for data load failure on /ids endpoints
+  if (method === 'GET' && pathname.startsWith('/ids')) {
+    if (idsLoadFailed) {
+      res.writeHead(500);
+      res.end(JSON.stringify({ error: 'data load failed' }));
+      return;
+    }
   }
 
   // GET /ids -> { items: [...] }
