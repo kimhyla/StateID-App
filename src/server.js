@@ -25,6 +25,19 @@ const server = http.createServer((req, res) => {
   const { pathname, query } = parseUrl(req.url, true);
   res.setHeader('Content-Type', 'application/json');
 
+  // Optional request logging
+  const logRequests =
+    process.env.LOG_REQUESTS === 'true' || process.env.LOG_REQUESTS === '1';
+  if (logRequests) {
+    res.on('finish', () => {
+      try {
+        console.log(`${method} ${pathname} -> ${res.statusCode}`);
+      } catch {
+        // noop
+      }
+    });
+  }
+
   // GET /healthz
   if (method === 'GET' && pathname === '/healthz') {
     res.writeHead(200);
