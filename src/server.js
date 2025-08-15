@@ -3,6 +3,7 @@
 import http from 'node:http';
 import { parse as parseUrl, fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 
 const HOST = '0.0.0.0';
 const PORT = 8787;
@@ -84,8 +85,10 @@ const server = http.createServer((req, res) => {
   res.end(JSON.stringify({ error: 'Not found' }));
 });
 
-// Only listen when run directly (not when imported by tests)
-if (process.argv[1] && process.argv[1].endsWith('src/server.js')) {
+// Only listen when run directly (not when imported by tests) — Windows-safe
+const entry = process.argv[1] ? resolve(process.argv[1]) : '';
+const thisFile = fileURLToPath(import.meta.url);
+if (entry === thisFile) {
   server.listen(PORT, HOST, () => {
     console.log(`StateID server listening on http://${HOST}:${PORT}`);
   });
