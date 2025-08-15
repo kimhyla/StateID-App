@@ -2,7 +2,7 @@
 
 import http from 'node:http';
 import { parse as parseUrl, fileURLToPath } from 'node:url';
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const HOST = '0.0.0.0';
@@ -20,7 +20,74 @@ const IDS = [
   { id: 'TX', name: 'Texas' },
 ];
 
-const server = http.createServer((req, res) => {
+// Persistence paths
+const ROOT_DIR = fileURLToPath(new URL('..', import.meta.url));
+const DATA_DIR = resolve(ROOT_DIR, 'data');
+const IDS_FILE = resolve(DATA_DIR, 'ids.json');
+
+// Load any previously persisted IDs and merge into memory (case-insensitive, normalized)
+function loadPersistedIds() {
+  try {
+    if (!existsSync(IDS_FILE)) return;
+    const txt = readFileSync(IDS_FILE, 'utf8');
+    const parsed = JSON.parse(txt);
+    const items = Array.isArray(parsed) ? parsed : Array.isArray(parsed?.items) ? parsed.items : [];
+    for (const raw of items) {
+      if (!raw || typeof raw !== 'object') continue;
+      const id = String(raw.id ?? '').trim();
+      const name = String(raw.name ?? '').trim();
+      if (!id || !name) continue;
+      const normId = id.toUpperCase();
+      const exists = IDS.some((x) => x.id.toUpperCase() === normId);
+      if (!exists) {
+        IDS.push({ id: normId, name });
+      }
+    }
+  } catch {
+    // ignore malformed file
+  }
+}
+loadPersistedIds();
+
+// Persist current IDs to disk as { items: [...] }
+function saveIds() {
+  try {
+    mkdirSync(DATA_DIR, { recursive: true });
+    writeFileSync(IDS_FILE, JSON.stringify({ items: IDS }, null, 2), 'utf8');
+  } catch {
+    // ignore write errors
+  }
+}
+
+// Minimal JSON body parser (<=1MB). Throws on invalid JSON or too large.
+function readJsonBody(req, limitBytes = 1024 * 1024) {
+  return new Promise((resolve, reject) => {
+    let size = 0;
+    const chunks = [];
+    req.on('data', (chunk) => {
+      size += chunk.length;
+      if (size > limitBytes) {
+        // abort and signal error
+        try { req.destroy(); } catch {}
+        reject(new Error('too large'));
+        return;
+      }
+      chunks.push(chunk);
+    });
+    req.on('end', () => {
+      try {
+        const buf = Buffer.concat(chunks);
+        const str = buf.toString('utf8');
+        resolve(JSON.parse(str));
+      } catch (e) {
+        reject(e);
+      }
+    });
+    req.on('error', reject);
+  });
+}
+
+const server = http.createServer(async (req, res) => {
   const { method } = req;
   const { pathname, query } = parseUrl(req.url, true);
   res.setHeader('Content-Type', 'application/json');
@@ -50,6 +117,55 @@ const server = http.createServer((req, res) => {
     res.writeHead(200);
     res.end(JSON.stringify({ version: pkg.version }));
     return;
+  }
+
+  // POST /ids -> create new item (behind WRITE_IDS flag)
+  if (method === 'POST' && pathname === '/ids') {
+    const canWrite =
+      process.env.WRITE_IDS === 'true' || process.env.WRITE_IDS === '1';
+    if (!canWrite) {
+      res.writeHead(405);
+      res.end(JSON.stringify({ error: 'writes disabled' }));
+      return;
+    }
+
+    // Minimal JSON body parse (<=1MB), treat any failure as invalid json
+    try {
+      const body = await readJsonBody(req);
+      const idRaw = body?.id;
+      const nameRaw = body?.name;
+
+      const id = String(idRaw ?? '').trim();
+      const name = String(nameRaw ?? '').trim();
+
+      if (!id || !name) {
+        res.writeHead(400);
+        res.end(JSON.stringify({ error: 'id and name required' }));
+        return;
+      }
+
+      const normId = id.toUpperCase();
+
+      // Duplicate check (case-insensitive)
+      const exists = IDS.some((x) => x.id.toUpperCase() === normId);
+      if (exists) {
+        res.writeHead(409);
+        res.end(JSON.stringify({ error: 'duplicate id' }));
+        return;
+      }
+
+      const item = { id: normId, name };
+      IDS.push(item);
+      saveIds();
+
+      res.writeHead(201);
+      res.end(JSON.stringify({ item }));
+      return;
+    } catch {
+      res.writeHead(400);
+      res.end(JSON.stringify({ error: 'invalid json' }));
+      return;
+    }
   }
 
   // GET /ids -> { items: [...] }

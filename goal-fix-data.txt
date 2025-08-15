@@ -1,0 +1,6 @@
+Refactor startup data load:
+- Use fileURLToPath(dirname(import.meta.url)) + path.resolve to build an absolute path to ../data/ids.json
+- Use readFileSync for startup read (no top-level await).
+- Keep validation & idsLoadFailed logic.
+- Do NOT change any handlers; preserve 400/404/200 behaviors and the 500 guard only when load truly fails.
+One batched edit in src/server.js only, then run /test.
