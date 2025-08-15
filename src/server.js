@@ -46,9 +46,10 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // GET /ids/search?query=... -> { items: [...] }
+  // GET /ids/search?q=... or /ids/search?query=... -> { items: [...] }
   if (method === 'GET' && pathname === '/ids/search') {
-    const q = (query?.query ?? '').trim();
+    const raw = query?.q ?? query?.query ?? '';
+    const q = String(raw).trim();
     if (!q) {
       res.writeHead(400);
       res.end(JSON.stringify({ error: 'query required' }));
