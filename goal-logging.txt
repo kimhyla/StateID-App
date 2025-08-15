@@ -1,0 +1,8 @@
+Add optional request logging:
+- If process.env.LOG_REQUESTS is "true" or "1", log "METHOD PATH -> STATUS" after each response (on res "finish").
+- Default off (no logs).
+Create test/logging.test.js (ESM) which:
+  - Temporarily sets LOG_REQUESTS="true", stubs console.log to capture, starts server on a test port, hits /healthz, asserts a log like "GET /healthz -> 200", restores console.log and clears env.
+  - Also verifies when LOG_REQUESTS is unset in this process, no such log is captured for a request made in that test.
+No new deps, Node 22 ESM, one batched edit.
+After the code change, run /test and stop.
