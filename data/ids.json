@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "CA",
+      "name": "California"
+    },
+    {
+      "id": "NY",
+      "name": "New York"
+    },
+    {
+      "id": "TX",
+      "name": "Texas"
+    },
+    {
+      "id": "YO",
+      "name": "Zedland"
+    },
+    {
+      "id": "EZ",
+      "name": "Firstland"
+    },
+    {
+      "id": "QH",
+      "name": "Zedland"
+    },
+    {
+      "id": "JA",
+      "name": "Firstland"
+    }
+  ]
+}

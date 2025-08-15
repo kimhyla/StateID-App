@@ -1,0 +1,16 @@
+Add POST /ids behind env flag WRITE_IDS:
+- When WRITE_IDS not "true"/"1": respond 405 {"error":"writes disabled"}.
+- Accept JSON body: {"id":"XX","name":"Name"}.
+- Validate: both present (trimmed). On missing -> 400 {"error":"id and name required"}.
+- Duplicate id (case-insensitive) -> 409 {"error":"duplicate id"}.
+- On success: persist to data/ids.json and respond 201 {"item": {...}}.
+- Keep IDs normalized to UPPERCASE in storage; name as provided (trimmed).
+- Add minimal JSON body parser (Content-Type: application/json; <=1MB); invalid JSON -> 400 {"error":"invalid json"}.
+- No new deps. Node 22 ESM. Update only src/server.js and add one new test file.
+
+Create test/ids.write.test.js (ESM) with cases:
+1) default (no WRITE_IDS): POST /ids => 405 {error:"writes disabled"}
+2) with WRITE_IDS="true": valid POST adds item; then GET /ids includes new id.
+3) missing fields => 400
+4) duplicate id => 409
+One batched edit, then run /test and stop.
