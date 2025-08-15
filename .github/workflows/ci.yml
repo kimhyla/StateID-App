@@ -1,4 +1,4 @@
-name: CI
+﻿name: CI
 
 on:
   push:
@@ -11,11 +11,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
-      - name: Node version
-        run: node --version
-      - name: Run unit tests
+          node-version: "22"
+      - name: Unit tests
         run: node --test "test/*.test.js"
-      - name: Run smoke test (PowerShell)
-        shell: pwsh
-        run: ./scripts/smoke.ps1
+      - name: Smoke test
+        run: node scripts/smoke.js
