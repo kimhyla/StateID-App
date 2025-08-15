@@ -1,0 +1,8 @@
+Refactor to load IDs from data/ids.json at startup instead of hardcoding.
+- Keep existing behavior for:
+  * GET /ids
+  * GET /ids/:id
+  * GET /ids/search (case-insensitive, supports ?limit=, "q" or "query", 400 on empty)
+- If the file is missing/invalid, respond 500 {"error":"data load failed"} for those endpoints (server still starts).
+- No new deps; use fs/promises.
+One batched edit; then run /test and stop.
