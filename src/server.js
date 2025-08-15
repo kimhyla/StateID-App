@@ -25,6 +25,19 @@ const server = http.createServer((req, res) => {
   const { pathname, query } = parseUrl(req.url, true);
   res.setHeader('Content-Type', 'application/json');
 
+  // Optional request logging
+  const logRequests =
+    process.env.LOG_REQUESTS === 'true' || process.env.LOG_REQUESTS === '1';
+  if (logRequests) {
+    res.on('finish', () => {
+      try {
+        console.log(`${method} ${pathname} -> ${res.statusCode}`);
+      } catch {
+        // noop
+      }
+    });
+  }
+
   // GET /healthz
   if (method === 'GET' && pathname === '/healthz') {
     res.writeHead(200);
@@ -46,22 +59,39 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // NEW: GET /ids/search?query=... -> { items: [...] }
+  // GET /ids/search?q=... or /ids/search?query=... -> { items: [...] }
   if (method === 'GET' && pathname === '/ids/search') {
-    const q = (query?.query ?? '').trim();
+    const raw = query?.q ?? query?.query ?? '';
+    const q = String(raw).trim();
     if (!q) {
       res.writeHead(400);
       res.end(JSON.stringify({ error: 'query required' }));
       return;
     }
+
+    // Optional limit validation
+    const limitRaw = query?.limit;
+    let limit;
+    if (limitRaw !== undefined) {
+      const s = String(limitRaw).trim();
+      if (!/^\d+$/.test(s) || Number(s) <= 0) {
+        res.writeHead(400);
+        res.end(JSON.stringify({ error: 'invalid limit' }));
+        return;
+      }
+      limit = Number(s);
+    }
+
     const needle = q.toLowerCase();
     const items = IDS.filter(
       (x) =>
         x.id.toLowerCase().includes(needle) ||
         x.name.toLowerCase().includes(needle)
     );
+
+    const result = limit !== undefined ? items.slice(0, limit) : items;
     res.writeHead(200);
-    res.end(JSON.stringify({ items }));
+    res.end(JSON.stringify({ items: result }));
     return;
   }
 
