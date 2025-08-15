@@ -8,3 +8,8 @@ node_modules/
 *.aider
 
 !.aider.conf.yml
+
+# aider helper files
+*.aider
+goal.txt
+fix-search.txt
