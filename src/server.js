@@ -95,10 +95,15 @@ const server = http.createServer(async (req, res) => {
   // Optional request logging
   const logRequests =
     process.env.LOG_REQUESTS === 'true' || process.env.LOG_REQUESTS === '1';
+  const startMs = Date.now();
+  const reqId =
+    req.headers['x-request-id'] ||
+    `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
   if (logRequests) {
     res.on('finish', () => {
       try {
-        console.log(`${method} ${pathname} -> ${res.statusCode}`);
+        const dur = Date.now() - startMs;
+        console.log(`${method} ${pathname} -> ${res.statusCode} id=${reqId} dur=${dur}ms`);
       } catch {
         // noop
       }
@@ -116,6 +121,45 @@ const server = http.createServer(async (req, res) => {
   if (method === 'GET' && pathname === '/version') {
     res.writeHead(200);
     res.end(JSON.stringify({ version: pkg.version }));
+    return;
+  }
+
+  // GET /r?u=<url> -> 302 redirect
+  if (method === 'GET' && pathname === '/r') {
+    const raw = query?.u ?? '';
+    const target = String(raw).trim();
+    if (!target) {
+      res.writeHead(400);
+      res.end(JSON.stringify({ error: 'missing target' }));
+      return;
+    }
+
+    let urlObj;
+    try {
+      urlObj = new URL(target);
+    } catch {
+      res.writeHead(400);
+      res.end(JSON.stringify({ error: 'invalid target' }));
+      return;
+    }
+
+    const protocol = urlObj.protocol;
+    if (protocol !== 'http:' && protocol !== 'https:') {
+      res.writeHead(400);
+      res.end(JSON.stringify({ error: 'invalid target' }));
+      return;
+    }
+
+    // Fail-open ledger write
+    try {
+      ledgerWrite({ method, path: pathname, target });
+    } catch {
+      // ignore errors, still redirect
+    }
+
+    res.statusCode = 302;
+    res.setHeader('Location', target);
+    res.end();
     return;
   }
 
