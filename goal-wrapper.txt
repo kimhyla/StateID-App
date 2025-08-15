@@ -1,0 +1,22 @@
+﻿Implement a minimal redirect endpoint and tests.
+
+Requirements:
+- Route: GET /r?u=<url>
+- Missing or empty "u" -> 400 { "error": "missing target" }
+- Only allow http/https targets; otherwise 400 { "error": "invalid target" }
+- On valid target: respond 302 with Location header set to the target; preserve query string
+- Fail-open: attempt a ledgerWrite() inside try/catch; if it throws, still return 302 (do not crash).
+  - For tests, if process.env.LEDGER_THROW === "true", ledgerWrite throws.
+- Logging: when LOG_REQUESTS is "true" or "1", include x-request-id (from header or generate) AND duration ms in the log line:
+  e.g. "GET /r -> 302 id=<cid> dur=<ms>"
+- No new deps. Node 22 ESM. One batched edit touching only:
+  - src/server.js
+  - test/redirect.test.js (new)
+- Tests must cover:
+  1) 302 for http target (redirect: 'manual' to inspect Location)
+  2) 302 for https target
+  3) 400 for missing u
+  4) 400 for non-http schemes (e.g. javascript:)
+  5) 302 even when LEDGER_THROW="true" (fail-open)
+
+Stop after running /test.
