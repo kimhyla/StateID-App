@@ -1,68 +1,98 @@
 // src/server.js (ESM)
+
 import http from 'node:http';
+import { parse as parseUrl, fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
-import { parse as parseUrl } from 'node:url';
+import { resolve } from 'node:path';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const HOST = '0.0.0.0';
+const PORT = 8787;
 
-const PORT = parseInt(process.env.PORT, 10) || 8787;
-const HOST = process.env.HOST || '0.0.0.0';
+// Read package version for /version
+const pkg = JSON.parse(
+  readFileSync(new URL('../package.json', import.meta.url), 'utf8')
+);
 
-let version = '0.0.0';
-try {
-  const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf8'));
-  version = pkg.version || version;
-} catch {
-  // ignore if package.json can't be read
-}
-
-const SAMPLE_IDS = [
-  { id: 'CA', name: 'California', fields: ['clientState', 'allowedStates'], notes: 'stub' },
-  { id: 'NY', name: 'New York',    fields: ['clientState', 'allowedStates'], notes: 'stub' },
-  { id: 'TX', name: 'Texas',       fields: ['clientState', 'allowedStates'], notes: 'stub' }
+// Tiny sample “State IDs” used by /ids and /ids/:id
+const IDS = [
+  { id: 'CA', name: 'California' },
+  { id: 'NY', name: 'New York' },
+  { id: 'TX', name: 'Texas' },
 ];
 
-function sendJson(res, status, body) {
-  const data = JSON.stringify(body);
-  res.writeHead(status, {
-    'Content-Type': 'application/json; charset=utf-8',
-    'Content-Length': Buffer.byteLength(data)
-  });
-  res.end(data);
-}
+const server = http.createServer((req, res) => {
+  const { method } = req;
+  const { pathname, query } = parseUrl(req.url, true);
+  res.setHeader('Content-Type', 'application/json');
 
-function handler(req, res) {
-  const { pathname } = parseUrl(req.url, true);
-
-  if (req.method === 'GET' && pathname === '/healthz') {
-    return sendJson(res, 200, { status: 'ok' });
+  // GET /healthz
+  if (method === 'GET' && pathname === '/healthz') {
+    res.writeHead(200);
+    res.end(JSON.stringify({ status: 'ok' }));
+    return;
   }
 
-  if (req.method === 'GET' && pathname === '/version') {
-    return sendJson(res, 200, { version });
+  // GET /version  -> { version }
+  if (method === 'GET' && pathname === '/version') {
+    res.writeHead(200);
+    res.end(JSON.stringify({ version: pkg.version }));
+    return;
   }
 
-  if (req.method === 'GET' && pathname === '/ids') {
-    return sendJson(res, 200, { items: SAMPLE_IDS });
+  // GET /ids -> { items: [...] }
+  if (method === 'GET' && pathname === '/ids') {
+    res.writeHead(200);
+    res.end(JSON.stringify({ items: IDS }));
+    return;
   }
 
-  if (req.method === 'GET' && pathname.startsWith('/ids/')) {
-    const id = decodeURIComponent(pathname.split('/')[2] || '');
-    const item = SAMPLE_IDS.find(x => x.id.toLowerCase() === id.toLowerCase());
-    return item ? sendJson(res, 200, item) : sendJson(res, 404, { error: 'Not found' });
+  // NEW: GET /ids/search?query=... -> { items: [...] }
+  if (method === 'GET' && pathname === '/ids/search') {
+    const q = (query?.query ?? '').trim();
+    if (!q) {
+      res.writeHead(400);
+      res.end(JSON.stringify({ error: 'query required' }));
+      return;
+    }
+    const needle = q.toLowerCase();
+    const items = IDS.filter(
+      (x) =>
+        x.id.toLowerCase().includes(needle) ||
+        x.name.toLowerCase().includes(needle)
+    );
+    res.writeHead(200);
+    res.end(JSON.stringify({ items }));
+    return;
   }
 
-  return sendJson(res, 404, { error: 'Not found' });
-}
+  // GET /ids/:id -> item or 404
+  const match = pathname.match(/^\/ids\/([A-Za-z]{2})$/);
+  if (method === 'GET' && match) {
+    const id = match[1].toUpperCase();
+    const item = IDS.find((x) => x.id === id);
+    if (!item) {
+      res.writeHead(404);
+      res.end(JSON.stringify({ error: 'Not found' }));
+      return;
+    }
+    res.writeHead(200);
+    res.end(JSON.stringify(item));
+    return;
+  }
 
-export const server = http.createServer(handler);
+  // Fallback 404
+  res.writeHead(404);
+  res.end(JSON.stringify({ error: 'Not found' }));
+});
 
-// If run directly (node src/server.js), start listening
-if (process.argv[1] === fileURLToPath(import.meta.url)) {
+// Only listen when run directly (not when imported by tests) — Windows-safe
+const entry = process.argv[1] ? resolve(process.argv[1]) : '';
+const thisFile = fileURLToPath(import.meta.url);
+if (entry === thisFile) {
   server.listen(PORT, HOST, () => {
     console.log(`StateID server listening on http://${HOST}:${PORT}`);
   });
 }
+
+export default server;
+export { server };
