@@ -1,0 +1,11 @@
+Add optional &limit=N to GET /ids/search:
+- If limit is provided, it must be a positive integer; otherwise return 400 with { "error": "invalid limit" }.
+- Apply limit *after* filtering by query; return at most N items.
+- If no limit is provided, behave exactly as now.
+- Keep accepting both "q" and "query".
+Create test/ids.search.limit.test.js with cases:
+  1) no limit -> returns all matches (>= 1) for a query
+  2) limit=1 -> returns exactly 1 item for a query that matches multiple
+  3) invalid limits (0, -1, "abc") -> 400 {error:"invalid limit"}
+No new deps, Node 22 ESM, one batched edit.
+After the code change, run /test and stop.
