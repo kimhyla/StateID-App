@@ -1,4 +1,21 @@
-﻿e too; otherwise rely on calendar emails (common today).
+﻿5. Core Behavior
+5.1 Calendar Auto-Rewrite (primary path) + Background Backstops
+• Google: Calendar API watch ? server rewrite of body/location; store original join URL in event extendedProperties (rollback-safe).
+• Outlook: Microsoft Graph subscription ? server rewrite of body/location; store original in extended properties.
+• Parse Location/Description/ICS for supported join URLs (Zoom/Meet/Teams/Webex/Doxy/VSee/Doximity/RingCentral/BlueJeans/etc.).
+• Replace visible join URL with a StateID wrapper (looks normal to clients).
+• Preserve full destination URL (all query params/tokens) and store original in event metadata.
+Timing & attendee updates (final policy)
+We aim to land the rewrite pre-send. If an invite already went, MVP does not send attendee update emails (maximum invisibility). In those edge cases, therapists see carry-forward or Ask at session time; ledger remains compliant.
+Backstops (background-only; no therapist action)
+• Zoom (when connected):
+o Prepend one ultra-short verify line to the meeting agenda/description via API (flows into Zoom emails/ICS).
+o If verification is still missing at host start, quietly add the short verify link to the Waiting Room message.
+• Teams: Add one ultra-short verify line at the top of the Outlook event body (appears in Teams in-call Details).
+• Meet: Calendar rewrite places the wrapper in the event Description, which shows in in-call Meeting details.
+How invites reach clients (covered)
+• Calendar-sent emails/SMS (Google/Outlook): rewritten body ? wrapped link delivered.
+• Zoom-sent emails: if Connect Zoom is enabled, our agenda line appears there too; otherwise rely on calendar emails (common today).
 • Portal-only flows (no visible URL): handled via Your Join Link (if using a fixed room) or the therapist banner (Ask / Mark / Acknowledge).
 • Static room per therapist: Your Join Link routes all clicks through StateID.
 Performance budget
@@ -20,24 +37,4 @@ Else if policy = Assume and there is a prior verified state within the cap (see 
 ?• If in-scope: no banner (toast only).
 ?• If out-of-scope: show Out-of-scope banner with Acknowledge · Correct the State (equivalent to entering a new state; sets Provider Assigned).
 ? Actions: Approve (keep assumption) · Enter Client’s current State (opens dropdown).
-? Logging (no-action guarantee): as soon as the toast is shown, write a ledger row: status=assumed_from_prior, method=assumed, state={{STATE}}, within_scope={true|false}.
-? Ledger when Approved: status=assumed_from_prior, method=assumed.
-? Ledger if Enter is used (or “Correct the State” from the banner): status=provider_assigned, method=provider_assigned, state={{NEW_STATE}} (history preserved; scope re-evaluated).
-Else if the therapist manually selects a state (no auto/self-declared available yet)
-? Show: Provider Assigned — {{STATE}}
-? Scope outcome: evaluate and, if out-of-scope, show banner with Acknowledge · Correct the State (may pick a different state).
-? Actions: may change state later; normal out-of-scope rules apply.
-? Ledger (immediate): status=provider_assigned, method=provider_assigned, state={{STATE}}, within_scope={true|false}.
-Else (no verification captured yet)
-? Show: Unverified- No known State with the Ask banner (§7.4).
-? Actions (banner): Ask Client for State (1-click Copy) · Assign a State (opens picker) · Assume State from Prior Session (if available within cap) · Acknowledge & Dismiss.
-? Logging (no-action guarantee): when the Ask banner is shown, write a ledger row immediately: status=unverified, within_scope=unknown (no method yet).
-? If Assign a State is used: update to status=provider_assigned, method=provider_assigned, state={{STATE}} and evaluate scope (show banner if out-of-scope).
-? If Assume State from Prior Session is used (within cap): update to status=assumed_from_prior, method=assumed, state={{PRIOR_STATE}} and evaluate scope.
-? When the client uses the Ask link and confirms: flip UI to Verified — {{STATE}}; set method=self_declared; evaluate scope.
-? Tie-breaker: if both auto and self-declared exist and disagree, status uses auto; self_declared_state is still saved for export.
-Export-only fields (unchanged):
-method ? {auto, self_declared, provider_assigned, assumed}; self_declared_state (nullable).
-5.3 License Scope (Allowed States check)
-• Every Verified result checked against Allowed States (+ PSYPACT).
-o In
+? Loggi

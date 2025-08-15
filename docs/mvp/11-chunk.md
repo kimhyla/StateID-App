@@ -1,4 +1,24 @@
-﻿-scope: silent success.
+﻿ng (no-action guarantee): as soon as the toast is shown, write a ledger row: status=assumed_from_prior, method=assumed, state={{STATE}}, within_scope={true|false}.
+? Ledger when Approved: status=assumed_from_prior, method=assumed.
+? Ledger if Enter is used (or “Correct the State” from the banner): status=provider_assigned, method=provider_assigned, state={{NEW_STATE}} (history preserved; scope re-evaluated).
+Else if the therapist manually selects a state (no auto/self-declared available yet)
+? Show: Provider Assigned — {{STATE}}
+? Scope outcome: evaluate and, if out-of-scope, show banner with Acknowledge · Correct the State (may pick a different state).
+? Actions: may change state later; normal out-of-scope rules apply.
+? Ledger (immediate): status=provider_assigned, method=provider_assigned, state={{STATE}}, within_scope={true|false}.
+Else (no verification captured yet)
+? Show: Unverified- No known State with the Ask banner (§7.4).
+? Actions (banner): Ask Client for State (1-click Copy) · Assign a State (opens picker) · Assume State from Prior Session (if available within cap) · Acknowledge & Dismiss.
+? Logging (no-action guarantee): when the Ask banner is shown, write a ledger row immediately: status=unverified, within_scope=unknown (no method yet).
+? If Assign a State is used: update to status=provider_assigned, method=provider_assigned, state={{STATE}} and evaluate scope (show banner if out-of-scope).
+? If Assume State from Prior Session is used (within cap): update to status=assumed_from_prior, method=assumed, state={{PRIOR_STATE}} and evaluate scope.
+? When the client uses the Ask link and confirms: flip UI to Verified — {{STATE}}; set method=self_declared; evaluate scope.
+? Tie-breaker: if both auto and self-declared exist and disagree, status uses auto; self_declared_state is still saved for export.
+Export-only fields (unchanged):
+method ? {auto, self_declared, provider_assigned, assumed}; self_declared_state (nullable).
+5.3 License Scope (Allowed States check)
+• Every Verified result checked against Allowed States (+ PSYPACT).
+o In-scope: silent success.
 o Out-of-scope: show small warning banner (see §7).
 • Outside U.S. evaluates out-of-scope unless explicitly allowed in Settings.
 • If PSYPACT is enabled, PSYPACT-member states are treated as in-scope even if not individually checked in Allowed States.
@@ -21,35 +41,4 @@ Group sessions
 • Single banner with per-attendee chips when emails are present; header “StateID: 1 of 3 verified”; chips update live.
 • One Ask covers all pending attendees.
 • If no attendee emails (portal-only), show session-level status (no chips).
-• When attendee emails exist, Ask provides per-attendee short links (one block to copy). If a single broadcast link is pasted, the Ask page prompts the client to confirm their email to map correctly.
-• If no emails (portal-only), therapist may Assign a State per-attendee via chips (manual mapping).
-Assume same state cap: If the last verified state is older than 90 days, do not assume; mark Unverified and show the banner.
-5.5 Out-of-scope Warning (exact copy)
-Banner: Client may be in {STATE} — outside your allowed states.
-Buttons: Acknowledge · Correct the State (dropdown of states)
-• Correct the State logs Provider Assigned with that state and re-evaluates scope.
-• Export records override_reason=clinician_override_out_of_scope and override_timestamp_utc.
-5.6 “Not a client session — do not log”
-• Link under the status pill / banner footer.
-• Clicking immediately discards this event from the ledger; banner closes.
-• If a row was already recorded, we soft-delete it (excluded from export) and retain a minimal deletion marker for 30 days.
-• Presentation: small, unobtrusive inline text link (12–13 px), low-emphasis color, no icon; accessible name “Not a client session — do not log”.
-• Placement: visible in the footer of the carry-forward toast and Ask/Out-of-scope banners; on the Verified pill, place it in a “?” overflow menu (no persistent link on the pill).
-• Visibility rules: desktop in active meeting only; hide on mobile; hide if already marked “not a client.” Do not duplicate the link (if a banner/toast is present, place it there only).
-• Undo: after click, show a brief Undo toast (2.5s; not keyboard accessible); if not undone, keep a minimal 30-day deletion marker with reason=non_client.
-
-6. Client Experience
-• No GPS or OS location prompts; network signals + optional self-attestation.
-• Tap invite ? ~0.1–0.2s check ? Zoom/Meet/Teams opens.
-Immediate deep-link try (e.g., zoommtg://…) or fast 302; DNS/TLS preconnect; dark background; page <2KB.
-• In-session Ask: tiny link in chat opens the browser and returns to the call; audio/video continue.
-• No client app. No account creation.
-• Mobile clients fully supported (iOS/Android).
-
-7. Therapist UI — Exact Copy & Elements
-Purpose: Canonical UI strings only. Behavior/conditions live in §5.2 (flow), scope banner rules in §5.3, and link placement/visibility in §5.6.
-7.1 Verified
-• Pill: Verified ?
-• Note: Footer/overflow link “Not a client session — do not log” per §5.6 (overflow on pill).
-7.2 Out-of-scope
-• Banner: Client may be in {STATE} — outside your al
+• When attendee emails

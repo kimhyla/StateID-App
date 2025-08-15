@@ -68,5 +68,3 @@ For each chosen service, show two checkboxes (pick one):
 When checked, show Your Join Link for that service with a Copy button and one line:
 “To run StateID seamlessly in the background, paste this link wherever you usually put your video-conference invite link (for example: your client portal template, your email template, or your default room settings in Zoom/Meet/Teams). If that’s not possible, no worries—we’ll send a one-line manual verification at the start of your video conference.” [Help]
 Help (collapsed; same guidance as above).
-
-Step 5 

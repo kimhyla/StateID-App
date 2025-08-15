@@ -1,4 +1,4 @@
-﻿— If we can’t auto-verify your client’s State
+﻿Step 5 — If we can’t auto-verify your client’s State
 ? Assume it’s the same as last session
 ? Ask the client for their State (one line)
 
@@ -47,7 +47,3 @@ Performance budget
 • Multiple links priority: Location field takes precedence over Description; within a field the order is Zoom ? Teams ? Meet ? Webex ? registry ? custom. Wrap the first match only.
 • Idempotence key for series/exceptions: (calendarId, eventId, occurrenceStartUtc, urlFingerprint).
 • Zoom Waiting Room message: best-effort / account-dependent (non-blocking).
-
-5.2 Verification & Status (therapist-visible) — If/Then with Scope
-If auto-detect captures a confident state within the click budget
-? Show: Verif

@@ -1,6 +1,6 @@
-﻿# MVP Index (StateID)
+﻿# MVP Index (chunked)
 
-These are chunked from the original 30-page MVP. Attach only what you need:
+Attach specific chunks in Continue:
 - docs/mvp/01-chunk.md
 - docs/mvp/02-chunk.md
 - docs/mvp/03-chunk.md
@@ -16,4 +16,4 @@ These are chunked from the original 30-page MVP. Attach only what you need:
 - docs/mvp/13-chunk.md
 - docs/mvp/14-chunk.md
 - docs/mvp/15-chunk.md
-
+- docs/mvp/16-chunk.md

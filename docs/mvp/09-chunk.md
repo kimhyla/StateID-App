@@ -1,4 +1,28 @@
-﻿ealth URL, Meeting link, or Location in your appointment template.
+﻿4. Installation & Onboarding
+Sign-in (passwordless)
+• Sign in with Google / Sign in with Microsoft (OAuth), or Sign in with Email (one-time code).
+• Same sign-in = same account across desktop and mobile.
+• No passwords. No phone number required.
+Onboarding (Desktop)
+Pre-step: Sign in.
+Step 1 — Connect your calendars
+Connect Google Calendar and/or Microsoft 365 (Outlook).
+Step 2 — Which video-service(s) do you use with clients?
+? Zoom
+? Google Meet
+? Microsoft Teams
+? Webex
+? Doxy / VSee / Doximity / RingCentral / BlueJeans
+? Client portal / EHR
+? Another video service (not listed)
+• If Zoom is checked ? show inline Connect Zoom (optional) (one click).
+• If Another video service (not listed) is checked ? show: Paste one example join link (https).
+Step 3 — Client portal / EHR (only if selected)
+Show Your Join Link (e.g., https://stateid.app/your-slug) with a Copy button.
+One line:
+“To run StateID seamlessly in the background, paste this link in your portal where your normal meeting link appears. If that’s not possible, no worries—we’ll send a one-line manual verification at the start of your video conference.” [Help]
+Help (collapsed):
+• Look for Video link, Telehealth URL, Meeting link, or Location in your appointment template.
 • Common spots: Settings ? Appointments ? Templates or Client Communication ? Email/Text Templates.
 Step 4 — For each service you selected
 “Do you generate a new invite link for each new video-conference session, or use the same link every time for all your sessions?”
@@ -23,22 +47,3 @@ Onboarding failure handling
 “You are not an editor on this Calendar. That means StateID can’t verify your client’s State automatically in the background. To fix this, you can either request editor access on the calendar, or just allow manual overrides. Either will work fine. If you are granted Editor access in the future, StateID will update itself.”
 We auto-reprobe access on app launch and every 24h; there’s also Recheck now.
 (Implementation rules—part of MVP but not surfaced to users: we only work with events you already create; we never create new invites or send attendee updates; read-only ICS feeds cannot be rewritten.)
-
-5. Core Behavior
-5.1 Calendar Auto-Rewrite (primary path) + Background Backstops
-• Google: Calendar API watch ? server rewrite of body/location; store original join URL in event extendedProperties (rollback-safe).
-• Outlook: Microsoft Graph subscription ? server rewrite of body/location; store original in extended properties.
-• Parse Location/Description/ICS for supported join URLs (Zoom/Meet/Teams/Webex/Doxy/VSee/Doximity/RingCentral/BlueJeans/etc.).
-• Replace visible join URL with a StateID wrapper (looks normal to clients).
-• Preserve full destination URL (all query params/tokens) and store original in event metadata.
-Timing & attendee updates (final policy)
-We aim to land the rewrite pre-send. If an invite already went, MVP does not send attendee update emails (maximum invisibility). In those edge cases, therapists see carry-forward or Ask at session time; ledger remains compliant.
-Backstops (background-only; no therapist action)
-• Zoom (when connected):
-o Prepend one ultra-short verify line to the meeting agenda/description via API (flows into Zoom emails/ICS).
-o If verification is still missing at host start, quietly add the short verify link to the Waiting Room message.
-• Teams: Add one ultra-short verify line at the top of the Outlook event body (appears in Teams in-call Details).
-• Meet: Calendar rewrite places the wrapper in the event Description, which shows in in-call Meeting details.
-How invites reach clients (covered)
-• Calendar-sent emails/SMS (Google/Outlook): rewritten body ? wrapped link delivered.
-• Zoom-sent emails: if Connect Zoom is enabled, our agenda line appears ther

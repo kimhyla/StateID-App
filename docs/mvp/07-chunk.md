@@ -1,4 +1,11 @@
-﻿OS and Windows.
+﻿py specified (“Location not detected/captured”); low-confidence geo ? Unverified with normal options.
+• Ask page records both auto-detected state (if any) and client-selected state (if any).
+• “Not a client session — do not log” discards the event; if already saved, soft-delete and retain minimal deletion marker for 30 days.
+• For every session with a resolved status, a Logged note is generated and stored; edits persist and appear in exports; edit history retained and viewable.
+• Exports: only Named Audit Pack (local); named PDF/CSV produced on device; scope header present.
+• Outlook/Google no-update emails: Patches do not generate attendee update emails across shared/delegated/resource calendars; any rare leak cases are documented.
+• Series correctness: Editing a series vs. a single instance never duplicates or strips wraps; exceptions preserve the original destination URL in metadata.
+• Desktop overlay safety: Banners never overlap Zoom/Teams/Meet mute/leave controls on macOS and Windows.
 • Latency SLOs: Wrapper p95 ? 200 ms across key regions; fail-open rate below the target threshold.
 • Privacy proof: Named export keeps PHI local; no names/emails leave the device (verified by intercept tests).
 
@@ -48,16 +55,3 @@ o Vanity domains/CNAME for Join Links.
 • Google/Outlook hooks: on create/edit/send with rollback safety.
 • Do not send attendee update emails if we miss pre-send (MVP policy).
 • Test matrix: Google (primary/secondary/delegated/shared; series master vs exception; sendUpdates=none); Outlook/Graph (user/shared/delegated/resource; series master vs instance; ?sendUpdates=none; cross-tenant). Verify no attendee update emails and idempotent wraps; document any leak cases.
-
-16.3 Desktop Agent
-• OAuth bootstrap; token refresh.
-• Banner/toast UI: Verified pill, out-of-scope banner, carry-forward toast, Ask banner with one-click Copy (single-line or per-attendee block).
-• Background health chips for connectors; Recheck now.
-• “Not a client session — do not log”: soft-delete with minimal marker.
-• Overlay heuristic: Anchor to a safe screen edge and never cover meeting controls (mute/leave). When overlapping meetings exist, scope to the meeting whose window is focused within the event’s time window; fallback to most recent user interaction.
-
-16.4 Ledger/Exports
-• Generate note_text on status resolution; regenerate on change; persist edit history (view history in row).
-• Named Audit Pack (local): pull calendar events locally via OAuth; join on event id/start; render PDF/CSV client-side; no PHI to server.
-• Webhook renewal daemons for Google watch and Microsoft Graph subscriptions (auto-renew, backoff, alerting).
-• Feature flags / kill switches per connector (e.g.,

@@ -1,4 +1,15 @@
-﻿ disable Zoom Waiting Room backstop).
+﻿16.3 Desktop Agent
+• OAuth bootstrap; token refresh.
+• Banner/toast UI: Verified pill, out-of-scope banner, carry-forward toast, Ask banner with one-click Copy (single-line or per-attendee block).
+• Background health chips for connectors; Recheck now.
+• “Not a client session — do not log”: soft-delete with minimal marker.
+• Overlay heuristic: Anchor to a safe screen edge and never cover meeting controls (mute/leave). When overlapping meetings exist, scope to the meeting whose window is focused within the event’s time window; fallback to most recent user interaction.
+
+16.4 Ledger/Exports
+• Generate note_text on status resolution; regenerate on change; persist edit history (view history in row).
+• Named Audit Pack (local): pull calendar events locally via OAuth; join on event id/start; render PDF/CSV client-side; no PHI to server.
+• Webhook renewal daemons for Google watch and Microsoft Graph subscriptions (auto-renew, backoff, alerting).
+• Feature flags / kill switches per connector (e.g., disable Zoom Waiting Room backstop).
 • Observability SLOs: track p50/p95 latency, fail-open %, background success %, rewrite idempotence hits.
 • Build a small support labeling tool for overlapping-meeting disambiguation ground truth.
 
@@ -37,29 +48,3 @@ Non-Goals (MVP)
 • Calendars: Google Workspace Calendar / Microsoft 365 (Outlook).
 • Optional Connector: Zoom private OAuth (background safeguards for Zoom flows; see §5.1 “Backstops”).
 • Yahoo coverage: when invites originate from Zoom/Teams/Google/Outlook (including “Add to Yahoo”), Yahoo consumes the ICS/body containing our wrapper/line. Direct manual Yahoo-only creation has no API; use Your Join Link or banner fallback.
-
-4. Installation & Onboarding
-Sign-in (passwordless)
-• Sign in with Google / Sign in with Microsoft (OAuth), or Sign in with Email (one-time code).
-• Same sign-in = same account across desktop and mobile.
-• No passwords. No phone number required.
-Onboarding (Desktop)
-Pre-step: Sign in.
-Step 1 — Connect your calendars
-Connect Google Calendar and/or Microsoft 365 (Outlook).
-Step 2 — Which video-service(s) do you use with clients?
-? Zoom
-? Google Meet
-? Microsoft Teams
-? Webex
-? Doxy / VSee / Doximity / RingCentral / BlueJeans
-? Client portal / EHR
-? Another video service (not listed)
-• If Zoom is checked ? show inline Connect Zoom (optional) (one click).
-• If Another video service (not listed) is checked ? show: Paste one example join link (https).
-Step 3 — Client portal / EHR (only if selected)
-Show Your Join Link (e.g., https://stateid.app/your-slug) with a Copy button.
-One line:
-“To run StateID seamlessly in the background, paste this link in your portal where your normal meeting link appears. If that’s not possible, no worries—we’ll send a one-line manual verification at the start of your video conference.” [Help]
-Help (collapsed):
-• Look for Video link, Teleh

@@ -1,4 +1,14 @@
-﻿dismiss
+﻿Policy A — Assume it’s the same as last session
+Toast (exact copy):
+StateID: Location not detected. Defaulted to last known State (CT) (12 days ago).
+Approve · Enter Client’s current State
+• Approve: keep default; ledger = Assumed from prior.
+• Enter Client’s current State: dropdown ? ledger = Unverified (provider-assigned).
+
+Policy B — Ask me each time
+Banner (exact copy):
+StateID: Location not captured.
+Ask client for State · Mark same State as last session (CT) · Mark New State… · Acknowledge & dismiss
 • Ask (1-click copy): popup shows Copy (single-line or per-attendee block when emails known). Tiny hint to paste into chat.
 • Client taps; StateID verifies and silently returns them to the call; UI flips to Verified.
 
@@ -45,22 +55,3 @@ Purpose: Canonical UI strings only. Behavior/conditions live in §5.2 (flow), sc
 • Banner: Client may be in {STATE} — outside your allowed states.
 • Buttons: Acknowledge · Correct the State (dropdown of states)
 • Note: Footer link “Not a client session — do not log” per §5.6.
-
-7.3 Carry-forward toast (Policy A)
-• StateID: Location not detected. Defaulted to last known State ({STATE}) ({AGE} ago).
-• Approve · Enter Client’s current State
-• Note: Footer link “Not a client session — do not log” per §5.6.
-
-7.4 Ask banner (Policy B)
-• StateID: Location not captured.
-• Ask client for State · Assign a State · Mark same State as last session ({STATE}) · Acknowledge & dismiss
-• Note: Footer link “Not a client session — do not log” per §5.6.
-Ask — prefilled message (exact)
-perl
-CopyEdit
-Hi! Please tap to confirm your state for my records — it won’t interrupt the call: {short link}
-(Ask flow shows one-click Copy; therapist pastes into chat.)
-
-8. Dashboard (Desktop & Mobile)
-Form factors
-• Desktop (primary): Full dashboard inside desktop

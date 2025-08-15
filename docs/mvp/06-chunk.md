@@ -1,4 +1,15 @@
-﻿link security: HMAC-signed, short-TTL (meeting window), multi-use, destination-bound, known-scanner fingerprints ignored; https-only custom patterns with a one-time validation hop.
+﻿Retention
+• Default 7 years, encrypted at rest.
+• Soft-deleted “non-client” events retain only a minimal deletion marker for 30 days, then purge.
+
+10. Security & Privacy
+• No PHI on server by default (MVP). Named exports are generated locally.
+• No GPS / OS location prompts; network signals only.
+• TLS everywhere; at-rest encryption; per-tenant salts for hashes.
+• Minimal cookies; honor DNT; short retention for raw signals.
+• US-region hosting; backups follow the same retention.
+• Desktop stores OAuth tokens in OS keychain/DPAPI.
+• Wrapper link security: HMAC-signed, short-TTL (meeting window), multi-use, destination-bound, known-scanner fingerprints ignored; https-only custom patterns with a one-time validation hop.
 • A future HIPAA Track (server-side names; BAA) is optional post-MVP.
 • Wrapper link signing keys are rotated on a schedule with a short backward-compatible grace window; tokens include a key identifier.
 • Key rotation grace window: 24 hours.
@@ -47,11 +58,4 @@ Zoom/Teams backstops
 • After install + OAuth (+ optional Zoom connect), 100% of new calendar invites containing a supported (or custom-patterned) video link are sent with a StateID wrapper automatically, without sending attendee update emails if we miss pre-send.
 • p95 ? 200 ms click-through; slower cases fail open and can still complete verification in background.
 • Out-of-scope banner appears only when applicable; copy matches spec.
-• Failure handling shows only the minimal copy specified (“Location not detected/captured”); low-confidence geo ? Unverified with normal options.
-• Ask page records both auto-detected state (if any) and client-selected state (if any).
-• “Not a client session — do not log” discards the event; if already saved, soft-delete and retain minimal deletion marker for 30 days.
-• For every session with a resolved status, a Logged note is generated and stored; edits persist and appear in exports; edit history retained and viewable.
-• Exports: only Named Audit Pack (local); named PDF/CSV produced on device; scope header present.
-• Outlook/Google no-update emails: Patches do not generate attendee update emails across shared/delegated/resource calendars; any rare leak cases are documented.
-• Series correctness: Editing a series vs. a single instance never duplicates or strips wraps; exceptions preserve the original destination URL in metadata.
-• Desktop overlay safety: Banners never overlap Zoom/Teams/Meet mute/leave controls on mac
+• Failure handling shows only the minimal co

@@ -1,4 +1,6 @@
-﻿ied ? — {{STATE}}
+﻿5.2 Verification & Status (therapist-visible) — If/Then with Scope
+If auto-detect captures a confident state within the click budget
+? Show: Verified ? — {{STATE}}
 ? Scope outcome: evaluate against Allowed States + PSYPACT + “Outside U.S.” rule
 ?• If in-scope: no banner.
 ?• If out-of-scope: show Out-of-scope banner: Client may be in {STATE} — outside your allowed states. Actions: Acknowledge · Correct the State (opens state picker; sets Provider Assigned).
@@ -42,15 +44,3 @@ o Out-of-scope: show small warning banner (see §7).
 5.4 Failure Handling (no verification yet)
 Keep it minimal to stay invisible.
 Low-confidence geo: treat as Unverified and show the normal options.
-
-Policy A — Assume it’s the same as last session
-Toast (exact copy):
-StateID: Location not detected. Defaulted to last known State (CT) (12 days ago).
-Approve · Enter Client’s current State
-• Approve: keep default; ledger = Assumed from prior.
-• Enter Client’s current State: dropdown ? ledger = Unverified (provider-assigned).
-
-Policy B — Ask me each time
-Banner (exact copy):
-StateID: Location not captured.
-Ask client for State · Mark same State as last session (CT) · Mark New State… · Acknowledge & 

@@ -1,4 +1,21 @@
-﻿ app or browser.
+﻿7.3 Carry-forward toast (Policy A)
+• StateID: Location not detected. Defaulted to last known State ({STATE}) ({AGE} ago).
+• Approve · Enter Client’s current State
+• Note: Footer link “Not a client session — do not log” per §5.6.
+
+7.4 Ask banner (Policy B)
+• StateID: Location not captured.
+• Ask client for State · Assign a State · Mark same State as last session ({STATE}) · Acknowledge & dismiss
+• Note: Footer link “Not a client session — do not log” per §5.6.
+Ask — prefilled message (exact)
+perl
+CopyEdit
+Hi! Please tap to confirm your state for my records — it won’t interrupt the call: {short link}
+(Ask flow shows one-click Copy; therapist pastes into chat.)
+
+8. Dashboard (Desktop & Mobile)
+Form factors
+• Desktop (primary): Full dashboard inside desktop app or browser.
 • Mobile web (light): Read-only + safe actions; no exports; no live banners.
 
 Navigation
@@ -53,16 +70,3 @@ CSV/PDF Columns (include Logged note)
 • note_text (Logged note)
 • license_check_notes (e.g., allowed=[CT,NY,MA] psypact=false)
 • geo_confidence (coarse)
-
-Retention
-• Default 7 years, encrypted at rest.
-• Soft-deleted “non-client” events retain only a minimal deletion marker for 30 days, then purge.
-
-10. Security & Privacy
-• No PHI on server by default (MVP). Named exports are generated locally.
-• No GPS / OS location prompts; network signals only.
-• TLS everywhere; at-rest encryption; per-tenant salts for hashes.
-• Minimal cookies; honor DNT; short retention for raw signals.
-• US-region hosting; backups follow the same retention.
-• Desktop stores OAuth tokens in OS keychain/DPAPI.
-• Wrapper 
