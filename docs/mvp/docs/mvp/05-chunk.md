@@ -1,0 +1,68 @@
+﻿ app or browser.
+• Mobile web (light): Read-only + safe actions; no exports; no live banners.
+
+Navigation
+• Sessions (default) • Exports • Settings • Org (if enabled) • Help
+(Admin-only Health panel is hidden from non-admins.)
+
+Sessions (Ledger)
+• Columns: Date/Time • Platform • Status • State • Within scope • Method (auto/self-declared/provider-assigned/assumed) • Logged note • Actions
+• Actions: Edit note (desktop), Not a client — do not log, Copy logged note
+• Filters: date range, status, state, within scope, platform, “suppressed (non-client)”.
+
+Exports
+• Named Audit Pack (local, on your computer) — the export.
+o Merges calendar names locally; outputs named PDF/CSV; no PHI leaves device.
+o Short explainer: “Names are added on your device using your calendar; nothing leaves your computer.”
+o If a calendar event lacks names (portal-only), the line remains anonymized.
+
+Settings
+• Connections: Google / Microsoft status (Reconnect if permission expired), Zoom optional connect/disconnect.
+• Policies: Assume it’s the same as last session or Ask the client for their State (one line); external attendee filter; attendee cap; calendars to watch.
+• Allowed States: state checkboxes + PSYPACT toggle; quick buttons Check all / Uncheck all / PSYPACT-only.
+• Includes “Outside U.S.” as a checkbox (disabled by default).
+• Notes: Use the word Client globally; timestamp toggle; “Mention PSYPACT” toggle; template preview removed.
+• Custom video patterns (Advanced): add a niche service by pasting one example link (https); one-time validation; then auto-wrap.
+• Privacy & retention: “Keep session records for X years (default 7). If you delete a row, we keep a tiny deletion record so export totals reconcile.”
+• Diagnostics: hidden by default; shown only in Support mode (Redirect speed test; Send last 10 wrapping logs — no PHI).
+• About: App version, release notes, support contact.
+• Org (optional): Users list; invite/remove; seat count; org-level defaults (Allowed States, Policies, Retention); per-user overrides.
+
+Mobile dashboard specifics
+• Can: view sessions, Copy logged note, Not a client, Acknowledge/Correct the State (set a different state) via a simple dialog.
+• Cannot: run exports; see live banners (desktop-only).
+
+9. Exports — Schema & Local Named Audit Pack
+
+Local Named Audit Pack (only)
+• Purpose: produce named audit exports without sending PHI to StateID servers.
+• Flow (local): reuse your Google/Microsoft OAuth locally to fetch calendar events; join to ledger via meeting_ref + time; render PDF/CSV on device (WebCrypto temp); you save to disk.
+• Output PDF includes header: “Declared scope at export time: Allowed [list]; PSYPACT: On/Off.”
+• Exports include schema_version: 1.
+CSV/PDF Columns (include Logged note)
+• meeting_ref (calendar UID + start; opaque, non-PHI)
+• attendee_slot_hash (stable hash; tenant-salted)
+• status ? {verified,unverified,assumed_from_prior,provider_assigned}
+• state (two-letter; includes DC/territories; “Outside U.S.” available)
+• within_scope ? {true,false,unknown}
+• timestamp_utc
+• method ? {auto,self_declared,provider_assigned,assumed}
+• self_declared_state (nullable)
+• override_reason (nullable; e.g., clinician_override_out_of_scope, manual_state_assignment)
+• override_timestamp_utc (nullable)
+• note_text (Logged note)
+• license_check_notes (e.g., allowed=[CT,NY,MA] psypact=false)
+• geo_confidence (coarse)
+
+Retention
+• Default 7 years, encrypted at rest.
+• Soft-deleted “non-client” events retain only a minimal deletion marker for 30 days, then purge.
+
+10. Security & Privacy
+• No PHI on server by default (MVP). Named exports are generated locally.
+• No GPS / OS location prompts; network signals only.
+• TLS everywhere; at-rest encryption; per-tenant salts for hashes.
+• Minimal cookies; honor DNT; short retention for raw signals.
+• US-region hosting; backups follow the same retention.
+• Desktop stores OAuth tokens in OS keychain/DPAPI.
+• Wrapper 
