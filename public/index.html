@@ -44,6 +44,27 @@
 
   <ul id="list"></ul>
 
+  <div class="panel">
+    <h3>Generate wrapper</h3>
+    <div class="tiny">Create a short, signed redirect for a meeting link.</div>
+    <p><label>Original URL</label><br/>
+    <input id="wrapUrl" type="text" placeholder="https://example.com/meeting" class="pill" style="width:360px; max-width:90vw;"/></p>
+    <div class="row">
+      <input id="wrapEvent" type="text" placeholder="eventId" class="pill"/>
+      <input id="wrapAttendee" type="text" placeholder="attendee" class="pill"/>
+      <button id="wrapBtn" class="btn">Generate</button>
+      <span id="wrapErr" class="err" role="alert"></span>
+    </div>
+    <div id="wrapResult" class="tiny"></div>
+  </div>
+
+  <div class="panel">
+    <h3>Recent audit</h3>
+    <div class="tiny">Last 10 redirect attempts.</div>
+    <div style="margin:6px 0;"><button id="refreshAudit" class="btn">Refresh</button></div>
+    <div id="auditList" class="tiny">Loading…</div>
+  </div>
+
   <div class="grid2">
     <div class="panel">
       <h3>AI request</h3>
@@ -247,6 +268,59 @@
   document.getElementById('refreshAider').onclick=fetchTail;
   setInterval(()=>{ if(autoEl.checked) fetchTail(); }, 2000);
   fetchTail();
+
+  // --- Wrapper generator + audit ---
+  const wrapUrlEl = document.getElementById('wrapUrl');
+  const wrapEventEl = document.getElementById('wrapEvent');
+  const wrapAttendeeEl = document.getElementById('wrapAttendee');
+  const wrapBtn = document.getElementById('wrapBtn');
+  const wrapErr = document.getElementById('wrapErr');
+  const wrapResult = document.getElementById('wrapResult');
+  async function generateWrap(){
+    if (!wrapUrlEl || !wrapBtn) return;
+    wrapErr.textContent = '';
+    wrapResult.textContent = '';
+    const url = (wrapUrlEl.value || '').trim();
+    const eventId = (wrapEventEl?.value || '').trim();
+    const attendee = (wrapAttendeeEl?.value || '').trim();
+    if (!validateUrl(url)) { wrapErr.textContent = 'Must start with http:// or https://'; return; }
+    try {
+      const body = { urlOriginal: url };
+      if (eventId) body.eventId = eventId;
+      if (attendee) body.attendee = attendee;
+      const r = await fetch('/wrap', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body) });
+      const j = await r.json().catch(()=> ({}));
+      if (!r.ok) throw new Error(j.error || r.statusText);
+      const link = j.url || '';
+      const abs = link.startsWith('http') ? link : (location.origin + link);
+      wrapResult.innerHTML = `<a href="${link}" target="_blank" rel="noopener">${abs}</a> <button class="btn" onclick="window.open('${link}','_blank')">Open</button>`;
+      renderAudit();
+    } catch (e) {
+      wrapErr.textContent = (e && e.message) || 'Failed to generate';
+    }
+  }
+  if (wrapBtn) wrapBtn.onclick = generateWrap;
+
+  // Recent audit
+  const auditEl = document.getElementById('auditList');
+  async function renderAudit(){
+    if (!auditEl) return;
+    try {
+      const j = await fetch('/audit?limit=10', { cache:'no-store' }).then(r => r.json());
+      const items = Array.isArray(j.items) ? j.items : [];
+      if (!items.length) { auditEl.textContent = '(none)'; return; }
+      const rows = items.map(row => {
+        const when = row.ts ? new Date(row.ts).toLocaleString() : '';
+        const who = [row.eventId, row.attendee].filter(Boolean).join(' • ');
+        return `<div>${when} • ${row.status} • ${who || '(anon)'} • ${row.ip || ''}</div>`;
+      }).join('');
+      auditEl.innerHTML = rows;
+    } catch { auditEl.textContent = '(failed to load)'; }
+  }
+  const refreshAuditBtn = document.getElementById('refreshAudit');
+  if (refreshAuditBtn) refreshAuditBtn.onclick = renderAudit;
+  renderAudit();
+
 })();
 </script>
 </body>

@@ -3,14 +3,29 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { readFile, writeFile, mkdir, stat, readdir } from 'fs/promises';
+import crypto from 'crypto';
+import { createToken, verifyToken, defaultSecret } from './lib/token.mjs';
+import { appendLedger, readLastN, readAll } from './lib/ledger.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname  = path.dirname(__filename);
 const ROOT       = path.resolve(__dirname, '..');
 const PORT       = process.env.PORT || 8787;
+const WRAP_SECRET = defaultSecret();
+const LEDGER_PATH = process.env.LEDGER_PATH || path.join(ROOT, 'ops', 'ledger', 'attendee-events.jsonl');
 
 const app = express();
 app.use(express.json());
+
+// Request utils for structured logging and timing
+function newRequestId() { return crypto.randomBytes(8).toString('hex'); }
+function msSince(startHr) {
+  const diff = process.hrtime.bigint() - startHr;
+  return Number(diff / 1000000n);
+}
+function logStructured(obj) {
+  try { console.log(JSON.stringify(obj)); } catch { console.log(String((obj && obj.msg) || 'log')); }
+}
 
 const IDS_PATH  = path.join(ROOT, 'data', 'ids.json');
 const OPS_DIR   = path.join(ROOT, 'ops');
@@ -66,7 +81,7 @@ app.patch('/ids/:id', async (req, res) => {
   }
 });
 
-// --- redirect ---
+/* --- redirect --- */
 app.get('/redirect/:id', async (req, res) => {
   const id = String(req.params.id || '').trim();
   try {
@@ -81,7 +96,142 @@ app.get('/redirect/:id', async (req, res) => {
   }
 });
 
-// --- BRIDGE: send a goal to aider/watch-goal ---
+/* --- Wrapper/Redirect MVP --- */
+// POST /wrap  -> issue token + short path
+app.post('/wrap', async (req, res) => {
+  const start = process.hrtime.bigint();
+  const request_id = newRequestId();
+  const route = '/wrap';
+  try {
+    const { urlOriginal, eventId, attendee } = req.body || {};
+    const url = String(urlOriginal || '').trim();
+    if (!/^https?:\/\//i.test(url)) {
+      const duration_ms = msSince(start);
+      logStructured({ level: 'warn', msg: 'wrap_invalid_url', request_id, route, duration_ms });
+      return res.status(400).json({ error: 'invalid_url', detail: 'urlOriginal must start with http:// or https://' });
+    }
+    const exp = Math.floor(Date.now() / 1000) + 6 * 3600;
+    const claims = { urlOriginal: url, exp };
+    if (eventId) claims.eventId = String(eventId);
+    if (attendee) claims.attendee = String(attendee);
+
+    const token = createToken(claims, WRAP_SECRET, 'v1');
+    const duration_ms = msSince(start);
+    logStructured({ level: 'info', msg: 'wrap_issued', request_id, route, duration_ms });
+    res.json({ token, url: `/w/${encodeURIComponent(token)}` });
+  } catch (e) {
+    const duration_ms = msSince(start);
+    logStructured({ level: 'error', msg: 'wrap_error', request_id, route, duration_ms });
+    res.status(500).json({ error: 'internal_error' });
+  }
+});
+
+// GET /w/:token -> verify + ledger + redirect
+app.get('/w/:token', async (req, res) => {
+  const start = process.hrtime.bigint();
+  const request_id = newRequestId();
+  const route = '/w/:token';
+  const token = String(req.params.token || '');
+  const ip = req.ip;
+  const ua = req.get('user-agent') || '';
+  try {
+    const v = verifyToken(token, WRAP_SECRET);
+    if (!v.ok) {
+      const latency_ms = msSince(start);
+      const row = {
+        ts: new Date().toISOString(),
+        request_id,
+        token_kid: 'v1',
+        eventId: undefined,
+        attendee: undefined,
+        ip,
+        ua,
+        status: v.status,
+        latency_ms
+      };
+      await appendLedger(row, LEDGER_PATH);
+      logStructured({ level: 'warn', msg: 'redirect_' + v.status, request_id, route, duration_ms: latency_ms });
+      return res.status(400).json({ error: v.status });
+    }
+    const payload = v.payload || {};
+    const latency_ms = msSince(start);
+    const row = {
+      ts: new Date().toISOString(),
+      request_id,
+      token_kid: payload.kid || 'v1',
+      eventId: payload.eventId,
+      attendee: payload.attendee,
+      ip,
+      ua,
+      status: 'ok',
+      latency_ms
+    };
+    await appendLedger(row, LEDGER_PATH);
+    logStructured({ level: 'info', msg: 'redirect_ok', request_id, route, duration_ms: latency_ms });
+    return res.redirect(302, String(payload.urlOriginal || ''));
+  } catch (e) {
+    const duration_ms = msSince(start);
+    logStructured({ level: 'error', msg: 'redirect_error', request_id, route, duration_ms });
+    try {
+      await appendLedger(
+        {
+          ts: new Date().toISOString(),
+          request_id,
+          token_kid: 'v1',
+          eventId: undefined,
+          attendee: undefined,
+          ip,
+          ua,
+          status: 'invalid_token',
+          latency_ms: duration_ms
+        },
+        LEDGER_PATH
+      );
+    } catch {}
+    res.status(500).json({ error: 'internal_error' });
+  }
+});
+
+// GET /audit -> last N rows
+app.get('/audit', async (req, res) => {
+  try {
+    const limit = Math.max(1, Math.min(500, parseInt(req.query.limit) || 50));
+    const items = await readLastN(limit, LEDGER_PATH);
+    res.json({ items });
+  } catch (e) {
+    res.status(500).json({ error: 'internal_error' });
+  }
+});
+
+// GET /export.csv -> CSV of rows filtered by ts
+app.get('/export.csv', async (req, res) => {
+  try {
+    const startIso = typeof req.query.start === 'string' ? req.query.start : null;
+    const endIso = typeof req.query.end === 'string' ? req.query.end : null;
+    const startMs = startIso ? Date.parse(startIso) : null;
+    const endMs = endIso ? Date.parse(endIso) : null;
+    const all = await readAll(LEDGER_PATH);
+    const filtered = all.filter((r) => {
+      const t = Date.parse(r.ts);
+      if (Number.isNaN(t)) return false;
+      if (startMs !== null && t < startMs) return false;
+      if (endMs !== null && t > endMs) return false;
+      return true;
+    });
+    const header = ['ts', 'request_id', 'token_kid', 'eventId', 'attendee', 'ip', 'ua', 'status', 'latency_ms'];
+    const esc = (v) => {
+      const s = v === undefined || v === null ? '' : String(v);
+      return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+    };
+    const lines = [header.join(','), ...filtered.map((r) => header.map((k) => esc(r[k])).join(','))];
+    res.set('Content-Type', 'text/csv; charset=utf-8');
+    res.send(lines.join('\r\n'));
+  } catch (e) {
+    res.status(500).json({ error: 'internal_error' });
+  }
+});
+
+/* --- BRIDGE: send a goal to aider/watch-goal --- */
 app.post('/bridge/goal', async (req, res) => {
   try {
     const goal = String((req.body && req.body.goal) || '').trim();
