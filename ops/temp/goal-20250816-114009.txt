@@ -1,0 +1,4 @@
+﻿Make a minimal change to public/index.html:
+- Insert an HTML comment near the top that says: <!-- aided change test -->
+Do not change any functionality.
+

@@ -1,0 +1,2169 @@
+﻿
+==== 2025-08-16T11:55:55.4779094-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:55:56.3867051-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:55:57.2773265-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:55:58.1377777-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:55:59.0100479-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:55:59.8976474-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:00.7615632-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:01.6656771-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:02.5790847-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:03.4715729-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:04.3854712-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:05.2517488-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:06.1178689-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:06.9929726-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:07.8963803-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:08.7857871-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:09.6986891-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:10.6534153-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:11.5362943-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:12.4150563-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:13.3068875-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:14.1772709-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:15.0866815-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:15.9327270-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:16.7814411-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:17.6296440-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:18.4903454-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:19.4212184-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:20.3317889-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:21.2047450-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:22.1320974-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:23.0208728-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:23.8722976-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:24.7203815-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:25.5931025-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:26.5171284-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:27.4041247-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:28.2781071-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:29.1615911-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:30.0608556-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:30.9146021-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:31.7950239-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:32.6819285-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:33.5386873-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:34.4110569-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:35.3010803-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:36.1668514-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:37.0510737-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:37.9184016-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:38.7935501-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:39.6371659-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:40.5705175-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:41.4386300-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:42.3214739-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:43.1937887-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:44.0943233-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:44.9780762-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:45.8785834-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:46.7623739-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:47.6628540-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:48.5470581-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:49.4466789-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:50.3319841-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:51.2777028-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:52.1461712-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:53.0838816-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:54.0307125-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:54.9313062-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:55.8473568-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:56.7158319-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:57.6164497-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:58.5171499-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:56:59.4331372-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:00.3017475-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:01.1909983-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:02.0728280-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:02.9861674-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:03.8576246-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:04.8213267-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:05.7220613-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:06.6048728-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:07.4927034-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:08.4876977-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:09.3731361-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:10.2744492-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:11.1780221-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:12.0588690-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:12.9293599-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:13.7999271-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:14.6936465-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:15.5784836-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:16.4609450-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:17.3489266-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:18.2336748-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:19.1139598-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:20.0134438-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:20.9009792-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:21.7944895-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:22.6761794-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:23.5655119-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:24.4445441-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:25.3516286-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:26.2344858-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:27.1224487-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:27.9813541-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:28.8315839-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:29.6766971-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:30.5548058-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:31.4030820-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:32.2644365-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:33.1133282-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:33.9600187-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:34.8132311-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:35.6548086-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:36.5014252-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:37.3501625-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:38.1953971-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:39.0463954-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:39.8909033-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:40.7376345-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:41.5837808-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:42.4483128-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:43.2961730-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:44.2493184-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:45.0993278-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:45.9486640-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:46.8546333-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:47.7705720-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:48.6979706-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:49.6079452-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:50.4970678-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:51.4411359-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:52.3260062-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:53.1760273-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:54.0847933-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:54.6160667-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:55.0010664-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:55.5011705-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:57:55.8449235-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:56.3933226-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:57:56.7213938-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:57.2839470-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:57:57.5807713-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:58.1745577-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:57:58.4557914-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:59.0572859-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:57:59.3541910-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:57:59.9792110-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:00.2448155-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:00.8611382-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:01.1719254-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:01.7748011-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:02.0772575-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:02.8070426-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:03.0237871-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:03.7522840-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:03.9341232-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:04.7359487-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:04.8618040-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:05.6584749-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:05.7641544-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:06.5632585-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:06.6611824-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:07.4804459-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:07.5631616-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:08.4143130-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:08.4799280-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:09.3490547-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:09.3940410-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:10.2809299-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:10.3263578-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:11.2252663-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:11.2770445-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:12.1691098-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+
+==== 2025-08-16T11:58:12.1833475-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:13.0959731-04:00 server.in EXEC ====
+
+==== 2025-08-16T11:58:13.0959731-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:14.0624275-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:14.9805251-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:15.8400470-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:16.7158513-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:17.5908115-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:18.5050944-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:19.3874760-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:20.2908805-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:21.1726155-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:22.0540501-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:22.9166412-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:23.8424392-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:24.7079417-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:25.6074562-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:26.6546552-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:27.5432283-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:28.4094110-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:29.3018765-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:30.2395762-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:31.1298270-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:32.0502395-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:32.9143456-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:33.8303048-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:34.7045153-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:35.6450892-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:36.5350273-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:37.4309629-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:38.3219021-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:39.2030232-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:40.0849692-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:40.9870095-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:41.8740819-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:42.7699152-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:43.6410804-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:44.5034620-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:45.4398925-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:46.3305547-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:47.2226617-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:48.0910939-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:48.9381142-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:49.9549544-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:50.8253265-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:51.7289996-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:52.6413138-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:53.5263038-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:54.4143432-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:55.2968767-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:56.1616751-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:57.0760223-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:57.9764543-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:58.8828675-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:58:59.7972422-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:00.6679806-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:01.5861562-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:02.4704602-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:03.3682001-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:04.2696295-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:05.1971796-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:06.1165452-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:07.0010207-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:07.8854715-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:08.7560576-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:09.6319849-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:10.5378774-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:11.4431124-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:12.3414609-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:13.2188647-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:14.1242340-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:15.0120658-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:15.8917205-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:16.7936546-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:17.6753774-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:18.5473795-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:19.4446364-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:20.3275168-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:21.2161488-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:22.1010279-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:22.9798379-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:23.8949137-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:24.7617246-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:25.6360913-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:26.5333785-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:27.4364456-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:28.3169422-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:29.2036988-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:30.0814717-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:30.9872916-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:31.8902546-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:32.7769802-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:33.6582932-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:34.5582610-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:35.4099986-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:36.3131392-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:37.2103283-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:38.1176189-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:38.9890007-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:39.8745542-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:40.7283785-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:41.5842506-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:42.4474983-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:43.3223990-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:44.1764219-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:45.0595219-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:45.9435476-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:46.8176207-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:47.6753476-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:48.5228871-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:49.3831326-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:50.2743351-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:51.1893327-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:52.1009567-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:52.9677452-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:53.8475044-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:54.7297619-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:55.5948843-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:56.4649650-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:57.3509735-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:58.2871784-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T11:59:59.2408819-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:00.1060907-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:01.0605238-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:01.9923825-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:02.8729047-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:03.7566961-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:04.6384445-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:05.5372356-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:06.5416306-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:07.4023368-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:08.2874381-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:09.1823164-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:10.0525349-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:10.9703488-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:11.8494761-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:12.7346865-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:13.5918444-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:14.4777771-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:15.3797485-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:16.2658851-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:17.1310016-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:18.0882071-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:18.9757731-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:19.8416170-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:20.7173514-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:21.5993823-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:22.4685667-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:23.3515663-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:24.2245879-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:25.0961987-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:25.9543677-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:26.8373700-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:27.7081177-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:28.5717855-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:29.4205694-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:30.2837882-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:31.1299858-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:32.0076956-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:32.8812884-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:33.7764986-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:34.6542083-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:35.5452534-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:36.4248232-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:37.2967213-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:38.1675079-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:39.0310536-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:39.9082507-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:40.7725162-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:41.6613336-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:42.5501497-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:43.4461695-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:44.3095173-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:45.1677770-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:46.0751110-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:46.9696109-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:47.8482870-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:48.7194087-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:49.5741782-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:50.4416940-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:51.3549485-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:52.2504250-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:53.1047949-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:53.9775993-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:54.8295454-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:55.7532023-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:56.6351205-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:57.5169218-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:58.4237290-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:00:59.3434032-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:00.2275477-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:01.1116953-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:02.0057551-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:02.8629153-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:03.7392034-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:04.6142196-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:05.4853032-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:06.3636151-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:07.2455386-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:08.1485969-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:09.0328989-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:09.9342838-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:10.8318371-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:11.7510252-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:12.6361835-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:13.5032942-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:14.3765251-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:15.2887504-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:16.1716481-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:17.0444752-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:17.9083908-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:18.7746969-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:19.6286373-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:20.5004692-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:21.3802000-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:22.2585455-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:23.1325240-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:23.9800976-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:24.8834994-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:25.8106750-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:26.6993828-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:27.5676084-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:28.4456906-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:29.3320640-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:30.2147296-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:31.0847468-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:31.9853126-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:32.8546189-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:33.7376250-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:34.6734378-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:35.5531498-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:36.4530582-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:37.3351142-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:38.2206759-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:39.1069825-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:39.9772369-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:40.8883272-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:41.7919319-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:42.6743591-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:43.5586166-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:44.4609637-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:45.3586018-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:46.2596356-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:47.1773603-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:48.0779455-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:48.9823374-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:49.8765240-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:50.7642501-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:51.6427336-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:52.5309843-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:53.4785527-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:54.3665488-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:55.2456070-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:56.1288115-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:57.0490179-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:58.1339468-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:59.0401589-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:01:59.9233013-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:00.7895300-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:01.6542867-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:02.5218030-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:03.4058225-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:04.3555614-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:05.2231857-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:06.0930321-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:06.9769972-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:07.8780845-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:08.7768949-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:09.6617855-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:10.5452009-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:11.4287623-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:12.3948118-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:13.3267949-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:14.1954163-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:15.0793601-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:15.9799047-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:16.8794355-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:17.7478187-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:18.6314330-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:19.5153632-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:20.4319284-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:21.3157823-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:22.1839851-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:23.1334419-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:24.0008934-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:24.8847408-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:25.7699088-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:26.6539050-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:27.5532151-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:28.4553996-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:29.3553783-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:30.2396326-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:31.1396734-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:32.0064856-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:32.8915886-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:33.7751512-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:34.6753366-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:35.5923056-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:36.4939030-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:37.4111072-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:38.3621951-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:39.3465350-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:40.2522593-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:41.1367989-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:42.0332417-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:42.9310850-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:43.8151230-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:44.7176131-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:45.6064593-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:46.4900543-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:47.3770469-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:48.2755677-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:49.1501516-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:50.0389091-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:50.8983863-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:51.7590685-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:52.6032367-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:53.4774678-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:54.3212843-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:55.1678986-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:56.0755258-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:56.9069363-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:57.7686293-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:58.6142551-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:02:59.4597390-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:00.3051118-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:01.1489296-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:01.9938843-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:02.8301200-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:03.6746029-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:04.5196090-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:05.3633877-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:06.2082741-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:07.0711510-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:07.9480859-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:08.8316746-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:09.7146656-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:10.5996312-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:11.4694477-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:12.3881716-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:13.2696919-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:14.1506015-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:15.0679306-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:15.9353730-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:16.8691878-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:17.7415869-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:18.7208901-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:19.6588775-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:20.5722383-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:21.4435642-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:22.2914178-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:23.1507659-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:23.9956021-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:24.8413904-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:25.6900387-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:26.5553732-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:27.4160773-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:28.2754458-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:29.1504459-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:30.0098270-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:30.8693077-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:31.7148997-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:32.5899047-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:33.4336024-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:34.3364048-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:35.2124778-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+
+==== 2025-08-16T12:03:36.1119061-04:00 server.in EXEC ====
+CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+ERROR: Add-Content : The process cannot access the file 'C:\Users\kimhy\Desktop\StateID-App\ops\outbox\server-node.log' 
+2025-08-16T12:06:34.3146641-04:00  ==== worker started ====
+2025-08-16T12:06:34.3459501-04:00  ==== server.in EXEC ====
+2025-08-16T12:06:34.3459501-04:00  CMD: cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\kimhy\Desktop\StateID-App\ops\server-run.ps1"
+2025-08-16T12:06:35.6759412-04:00  DONE.
+2025-08-16T13:13:15.4583636-04:00  ==== worker started ====

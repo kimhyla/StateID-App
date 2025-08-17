@@ -2,31 +2,42 @@
   "items": [
     {
       "id": "CA",
-      "name": "California"
+      "name": "California",
+      "url": "https://www.ca.gov"
     },
     {
       "id": "NY",
-      "name": "New York"
+      "name": "New York",
+      "url": "https://www.ny.gov"
     },
     {
       "id": "TX",
-      "name": "Texas"
+      "name": "Texas",
+      "url": "https://www.texas.gov"
     },
     {
       "id": "YO",
-      "name": "Zedland"
+      "name": "Yoruba"
     },
     {
       "id": "EZ",
-      "name": "Firstland"
+      "name": "Ezzora"
     },
     {
       "id": "QH",
-      "name": "Zedland"
+      "name": "Qholla"
     },
     {
       "id": "JA",
-      "name": "Firstland"
+      "name": "Jabiru"
+    },
+    {
+      "id": "GX",
+      "name": "Gxina"
+    },
+    {
+      "id": "NL",
+      "name": "Netherlandish"
     }
   ]
 }
