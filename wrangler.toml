@@ -1,0 +1,11 @@
+﻿name = "stateid-redirect-worker"
+main = "src/edge/redirectWorker.mts"
+compatibility_date = "2024-11-01"
+
+[vars]
+# SLA budget; fail-open only before policy decisions
+REDIRECT_BUDGET_MS = "200"
+
+# CSV allow-list; supports literal host and *.example.com
+# Change these to your real domains before staging/prod.
+ALLOWED_HOSTS = "video.example.org,*.good.example.net"

@@ -20,3 +20,55 @@ Thumbs.db
 # Local helper files (don’t commit)
 goal.txt
 fix-search.txt
+# --- StateID Edge Worker additions (append) ---
+
+# Cloudflare Wrangler local state/cache
+.wrangler/
+
+# Local dev vars (never commit secrets)
+.dev.vars
+
+# Build outputs / coverage
+dist/
+coverage/
+
+# Editor settings
+.vscode/
+
+# Python virtual environments
+.venv/
+ops/.venv/
+
+# Extra logs & temp files
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.tmp
+*.swp
+# --- StateID Edge Worker additions (append) ---
+
+# Cloudflare Wrangler local state/cache
+.wrangler/
+
+# Local dev vars (never commit secrets)
+.dev.vars
+
+# Build outputs / coverage
+dist/
+coverage/
+
+# Editor settings
+.vscode/
+
+# Python virtual environments
+.venv/
+ops/.venv/
+
+# Extra logs & temp files
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.tmp
+*.swp
+
+signed-url.txt
