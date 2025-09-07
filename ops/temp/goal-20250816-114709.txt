@@ -1,0 +1,6 @@
+﻿Make a minimal change to public/index.html:
+- Insert an HTML comment near the top that says: <!-- aided change test -->
+Do not change any functionality.
+
+Trigger: df0b1e7c-3435-40ee-a466-3c8216c71e72
+

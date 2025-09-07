@@ -1,0 +1,48 @@
+﻿import express from "express";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname  = path.dirname(__filename);
+
+const PORT = process.env.PORT || 8787;
+const app  = express();
+
+// tiny static UI
+app.use(express.static(path.join(__dirname, "..", "public")));
+
+// health
+app.get("/healthz", (_req, res) => res.json({ status: "ok" }));
+
+// read ids.json safely
+function readIds() {
+  try {
+    const p   = path.join(__dirname, "..", "data", "ids.json");
+    const raw = fs.readFileSync(p, "utf8");
+    const j   = JSON.parse(raw);
+    return Array.isArray(j.items) ? j.items : [];
+  } catch (e) {
+    console.error("[server] failed to read ids.json:", e.message);
+    return [];
+  }
+}
+
+app.get("/ids", (_req, res) => res.json({ items: readIds() }));
+
+// redirect by ID (case-insensitive). Expects optional { url } per item
+app.get("/redirect/:id", (req, res) => {
+  const wanted = String(req.params.id || "").toUpperCase();
+  const items  = readIds();
+  const hit    = items.find(x => String(x.id || "").toUpperCase() === wanted);
+
+  if (!hit) return res.status(404).json({ status: "not_found", id: wanted });
+  if (hit.url && typeof hit.url === "string" && hit.url.trim()) {
+    return res.redirect(302, hit.url);
+  }
+  return res.status(409).json({ status: "no_url_for_id", id: wanted });
+});
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`StateID server listening on http://0.0.0.0:${PORT}`);
+});

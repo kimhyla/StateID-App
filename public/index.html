@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>StateID</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { margin: 24px; color: #222; }
+    h1 { margin: 0 0 8px 0; }
+    .row { display:flex; align-items:center; gap:12px; margin-bottom:16px; flex-wrap:wrap; }
+    .pill { padding:4px 10px; border-radius:999px; font-size:14px; border:1px solid #ccc; background:#f6f6f6; }
+    .pill.ok { border-color:#2ea04366; background:#eaf7ea; }
+    .pill.bad{ border-color:#d1242f66; background:#fde8ea; }
+    .muted { color:#666; font-size:13px; }
+    ul { padding-left:20px; }
+    li { margin:8px 0; }
+    .warn { color:#a15c00; font-size:12px; margin-left:8px; }
+    a { text-decoration:none; color:#0b62d6; }
+    a:hover{ text-decoration:underline; }
+    .btn { padding:2px 8px; font-size:12px; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer; }
+    .btn:hover { background:#f6f6f6; }
+    .btn.ghost { background:#fafafa; }
+    .btn:disabled, input:disabled, textarea:disabled { opacity:0.6; cursor:not-allowed; }
+    .edit { margin:8px 0 0 0; padding:8px; border-left:3px solid #e5e5e5; }
+    .edit input { width:360px; max-width:90vw; padding:6px 8px; font-size:14px; margin-right:8px; }
+    .err { color:#b00020; font-size:12px; margin-left:8px; }
+    .panel { border:1px solid #e5e5e5; border-radius:8px; padding:12px; margin:18px 0; }
+    .panel h3 { margin:0 0 8px 0; }
+    .logbox { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space:pre-wrap;
+              border:1px solid #ddd; border-radius:8px; padding:10px; background:#fafafa; max-height:320px; overflow:auto; }
+    textarea { width:100%; min-height:110px; padding:8px; font-size:14px; }
+    .tiny { font-size:12px; color:#666; }
+    .grid2 { display:grid; grid-template-columns: 1fr; gap:12px; }
+    @media (min-width: 900px){ .grid2 { grid-template-columns: 1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <h1>StateID</h1>
+  <div class="row">
+    <span id="status" class="pill">? probing.</span>
+    <span class="muted">Items: <strong id="count">0</strong></span>
+  </div>
+
+  <ul id="list"></ul>
+
+  <div class="panel">
+    <h3>Generate wrapper</h3>
+    <div class="tiny">Create a short, signed redirect for a meeting link.</div>
+    <p><label>Original URL</label><br/>
+    <input id="wrapUrl" type="text" placeholder="https://example.com/meeting" class="pill" style="width:360px; max-width:90vw;"/></p>
+    <div class="row">
+      <input id="wrapEvent" type="text" placeholder="eventId" class="pill"/>
+      <input id="wrapAttendee" type="text" placeholder="attendee" class="pill"/>
+      <button id="wrapBtn" class="btn">Generate</button>
+      <span id="wrapErr" class="err" role="alert"></span>
+    </div>
+    <div id="wrapResult" class="tiny"></div>
+  </div>
+
+  <div class="panel">
+    <h3>Recent audit</h3>
+    <div class="tiny">Last 10 redirect attempts.</div>
+    <div style="margin:6px 0;"><button id="refreshAudit" class="btn">Refresh</button></div>
+    <div id="auditList" class="tiny">Loading…</div>
+  </div>
+
+  <div class="grid2">
+    <div class="panel">
+      <h3>AI request</h3>
+      <div class="tiny">Send a goal to the local bridge (writes <code>ops/inbox/GOAL.txt</code>; optional cheat sheet to <code>ops/CHEATSHEET.txt</code>).</div>
+      <p><label>Goal</label><br/>
+      <textarea id="goalBox" placeholder="e.g., Update the README to document how to run the server."></textarea></p>
+      <details>
+        <summary>Optional cheat sheet</summary>
+        <p><textarea id="cheatBox" placeholder="Any guidance ChatGPT gives for Aider…"></textarea></p>
+      </details>
+      <button id="sendGoal" class="btn">Send goal</button>
+      <span id="goalMsg" class="tiny"></span>
+      <div id="bridgeStat" class="tiny" style="margin-top:6px;"></div>
+    </div>
+
+    <div class="panel">
+      <h3>Aider output (live)</h3>
+      <div class="tiny">Shows tail of <code>ops/outbox/aider.log</code>. Start Aider with <code>--log-file ops/outbox/aider.log</code>.</div>
+      <div style="margin:6px 0;">
+        <button id="refreshAider" class="btn">Refresh</button>
+        <label class="tiny" style="margin-left:8px;"><input type="checkbox" id="autoAider" checked> Auto (2s)</label>
+        <label class="tiny" style="margin-left:8px;">Lines: <input id="aiderN" type="number" value="200" min="20" max="2000" style="width:70px;"></label>
+      </div>
+      <pre id="aiderTail" class="logbox">[waiting for aider.log…]</pre>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>Answer Aider (cheat sheet helper)</h3>
+    <div class="tiny">Paste ChatGPT’s reply here. Use <strong>Append</strong> for a running log, or <strong>Replace</strong> to overwrite <code>CHEATSHEET.txt</code>.</div>
+    <textarea id="answerBox" placeholder="Paste ChatGPT's answer for Aider..."></textarea>
+    <div style="margin-top:6px;">
+      <button id="appendCheat"  class="btn">Append answer</button>
+      <button id="replaceCheat" class="btn">Replace cheat sheet</button>
+      <span id="cheatMsg" class="tiny"></span>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>Outbox</h3>
+    <div class="tiny">Files produced by your watcher/Aider in <code>ops/outbox</code>.</div>
+    <div style="margin:6px 0;"><button id="refreshOutbox" class="btn">Refresh</button></div>
+    <div id="outboxList" class="tiny">Loading…</div>
+  </div>
+
+<script>
+(async function(){
+  const statusEl = document.getElementById('status');
+  const countEl  = document.getElementById('count');
+  const listEl   = document.getElementById('list');
+
+  // existing IDs UI (same as before)
+  function validateUrl(val){ return !val || /^https?:\/\//i.test(val); }
+  async function apiPatch(id, url){
+    const res = await fetch('/ids/' + encodeURIComponent(id), {
+      method:'PATCH', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ url })
+    });
+    if (!res.ok) {
+      let d=''; try{ const j=await res.json(); d=j.error||j.detail||res.statusText; }catch{}
+      throw new Error(d||('HTTP '+res.status));
+    }
+    return res.json();
+  }
+  async function loadAndRender(){
+    try{
+      const h = await fetch('/healthz',{cache:'no-store'}).then(r=>r.json());
+      if (h && h.status==='ok') { statusEl.textContent='√ ready'; statusEl.classList.add('ok'); }
+      else { statusEl.textContent='? not ready'; statusEl.classList.add('bad'); }
+    }catch{ statusEl.textContent='? not ready'; statusEl.classList.add('bad'); }
+
+    try{
+      const data = await fetch('/ids',{cache:'no-store'}).then(r=>r.json());
+      const items = (data && Array.isArray(data.items)) ? data.items : [];
+      countEl.textContent = items.length;
+      listEl.innerHTML = '';
+      for (const it of items) listEl.appendChild(renderItem(it));
+    }catch{
+      countEl.textContent='0';
+      listEl.innerHTML='<li class="muted">Failed to load items.</li>';
+    }
+  }
+  function renderItem(it){
+    const li=document.createElement('li');
+    const label=document.createElement('span');
+    label.textContent=`[${it.id}] ${it.name}`; li.appendChild(label);
+    if(it.url){
+      const sp=document.createElement('span');
+      sp.innerHTML=' - <a href="/redirect/'+encodeURIComponent(it.id)+'">open</a>';
+      li.appendChild(sp);
+    } else {
+      const warn=document.createElement('span'); warn.className='warn'; warn.textContent='  no url set';
+      li.appendChild(warn);
+    }
+    li.appendChild(document.createTextNode(' '));
+    const btn=document.createElement('button'); btn.className='btn'; btn.textContent='Edit'; li.appendChild(btn);
+
+    const editor=document.createElement('div'); editor.className='edit'; editor.style.display='none';
+    editor.innerHTML=`
+      <div>
+        <label>URL:</label>
+        <input type="text" placeholder="https://example.gov" />
+        <button class="btn save">Save</button>
+        <button class="btn ghost unset">Unset</button>
+        <button class="btn ghost cancel">Cancel</button>
+        <span class="err"></span>
+      </div>`;
+    const input=editor.querySelector('input'), save=editor.querySelector('.save'),
+          unset=editor.querySelector('.unset'), cancel=editor.querySelector('.cancel'),
+          errEl=editor.querySelector('.err');
+    input.value=it.url||'';
+    function lock(on){ [btn,input,save,unset,cancel].forEach(el=>el.disabled=!!on); }
+    btn.onclick=()=>{ editor.style.display=editor.style.display==='none'?'block':'none'; if(editor.style.display==='block'){ input.focus(); input.select(); } };
+    save.onclick=async()=>{ const v=input.value.trim(); errEl.textContent=''; if(!validateUrl(v)){ errEl.textContent='Must start with http:// or https://'; return; } lock(true); try{ await apiPatch(it.id,v); await loadAndRender(); }catch(e){ errEl.textContent=e.message||'Save failed'; }finally{ lock(false); editor.style.display='none'; } };
+    unset.onclick=async()=>{ errEl.textContent=''; lock(true); try{ await apiPatch(it.id,''); await loadAndRender(); }catch(e){ errEl.textContent=e.message||'Unset failed'; }finally{ lock(false); editor.style.display='none'; } };
+    cancel.onclick=()=>{ editor.style.display='none'; };
+    li.appendChild(editor);
+    return li;
+  }
+
+  await loadAndRender();
+
+  // --- Bridge: send goal + optional cheatsheet ---
+  const goalBox=document.getElementById('goalBox');
+  const cheatBox=document.getElementById('cheatBox');
+  const goalMsg=document.getElementById('goalMsg');
+  document.getElementById('sendGoal').onclick=async()=>{
+    goalMsg.textContent='';
+    const body={ goal: (goalBox.value||'').trim() };
+    const cheat=(cheatBox.value||'').trim();
+    if (cheat) body.cheatsheet = cheat;
+    try{
+      const r=await fetch('/bridge/goal',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+      if(!r.ok) throw new Error((await r.text())||r.statusText);
+      goalMsg.textContent='✓ sent'; setTimeout(()=>goalMsg.textContent='',2000);
+    }catch(e){ goalMsg.textContent='✗ '+(e.message||'failed'); }
+  };
+  // Show bridge status under the form
+  async function renderBridgeStat(){
+    try{ const s=await fetch('/bridge/status',{cache:'no-store'}).then(r=>r.json());
+      const f=(x)=>x?`size=${x.size} • mtime=${new Date(x.mtime).toLocaleString()}`:'(none)';
+      document.getElementById('bridgeStat').textContent=`goal: ${f(s.goal)} | cheat: ${f(s.cheat)}`;
+    }catch{}
+  }
+  setInterval(renderBridgeStat, 3000); renderBridgeStat();
+
+  // --- Cheat sheet helper buttons ---
+  const answerBox=document.getElementById('answerBox');
+  const cheatMsg=document.getElementById('cheatMsg');
+  document.getElementById('replaceCheat').onclick=async()=>{
+    cheatMsg.textContent='';
+    try{
+      const body={ goal:"", cheatsheet: answerBox.value };
+      const r=await fetch('/bridge/goal',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+      if(!r.ok) throw new Error((await r.text())||r.statusText);
+      cheatMsg.textContent='✓ CHEATSHEET.txt replaced';
+    }catch(e){ cheatMsg.textContent='✗ '+(e.message||'failed'); }
+  };
+  document.getElementById('appendCheat').onclick=async()=>{
+    cheatMsg.textContent='';
+    try{
+      // read old, append, write back via the same endpoint
+      const old = await fetch('/outbox/text?name=../CHEATSHEET.txt').then(r=>r.ok?r.text():"").catch(()=> "");
+      const body={ goal:"", cheatsheet: (old ? (old + "\n\n" + answerBox.value) : answerBox.value) };
+      const r=await fetch('/bridge/goal',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+      if(!r.ok) throw new Error((await r.text())||r.statusText);
+      cheatMsg.textContent='✓ appended';
+    }catch(e){ cheatMsg.textContent='✗ '+(e.message||'failed'); }
+  };
+
+  // --- Outbox list + links to text ---
+  const outEl=document.getElementById('outboxList');
+  async function renderOutbox(){
+    try{
+      const j=await fetch('/outbox/list',{cache:'no-store'}).then(r=>r.json());
+      const files=(j&&Array.isArray(j.files))?j.files:[];
+      if(!files.length){ outEl.textContent='(empty)'; return; }
+      const rows = files.map(f=>{
+        const href='/outbox/text?name='+encodeURIComponent(f.name);
+        const when=new Date(f.mtime).toLocaleString();
+        return `<div><a href="${href}" target="_blank">${f.name}</a> • ${f.size} bytes • ${when}</div>`;
+      }).join('');
+      outEl.innerHTML=rows;
+    }catch{ outEl.textContent='(failed to load)'; }
+  }
+  document.getElementById('refreshOutbox').onclick=renderOutbox;
+  renderOutbox();
+
+  // --- Aider live tail ---
+  const tailEl=document.getElementById('aiderTail');
+  const autoEl=document.getElementById('autoAider');
+  const nEl=document.getElementById('aiderN');
+  async function fetchTail(){
+    try{
+      const n=Math.max(20,Math.min(2000,parseInt(nEl.value)||200));
+      const txt=await fetch('/outbox/tail?name=aider.log&n='+n,{cache:'no-store'}).then(r=>r.text());
+      tailEl.textContent=txt || '[no content yet]';
+      if (tailEl.scrollHeight - tailEl.scrollTop < 50) tailEl.scrollTop = tailEl.scrollHeight;
+    }catch{ /* stay quiet */ }
+  }
+  document.getElementById('refreshAider').onclick=fetchTail;
+  setInterval(()=>{ if(autoEl.checked) fetchTail(); }, 2000);
+  fetchTail();
+
+  // --- Wrapper generator + audit ---
+  const wrapUrlEl = document.getElementById('wrapUrl');
+  const wrapEventEl = document.getElementById('wrapEvent');
+  const wrapAttendeeEl = document.getElementById('wrapAttendee');
+  const wrapBtn = document.getElementById('wrapBtn');
+  const wrapErr = document.getElementById('wrapErr');
+  const wrapResult = document.getElementById('wrapResult');
+  async function generateWrap(){
+    if (!wrapUrlEl || !wrapBtn) return;
+    wrapErr.textContent = '';
+    wrapResult.textContent = '';
+    const url = (wrapUrlEl.value || '').trim();
+    const eventId = (wrapEventEl?.value || '').trim();
+    const attendee = (wrapAttendeeEl?.value || '').trim();
+    if (!validateUrl(url)) { wrapErr.textContent = 'Must start with http:// or https://'; return; }
+    try {
+      const body = { urlOriginal: url };
+      if (eventId) body.eventId = eventId;
+      if (attendee) body.attendee = attendee;
+      const r = await fetch('/wrap', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body) });
+      const j = await r.json().catch(()=> ({}));
+      if (!r.ok) throw new Error(j.error || r.statusText);
+      const link = j.url || '';
+      const abs = link.startsWith('http') ? link : (location.origin + link);
+      wrapResult.innerHTML = `<a href="${link}" target="_blank" rel="noopener">${abs}</a> <button class="btn" onclick="window.open('${link}','_blank')">Open</button>`;
+      renderAudit();
+    } catch (e) {
+      wrapErr.textContent = (e && e.message) || 'Failed to generate';
+    }
+  }
+  if (wrapBtn) wrapBtn.onclick = generateWrap;
+
+  // Recent audit
+  const auditEl = document.getElementById('auditList');
+  async function renderAudit(){
+    if (!auditEl) return;
+    try {
+      const j = await fetch('/audit?limit=10', { cache:'no-store' }).then(r => r.json());
+      const items = Array.isArray(j.items) ? j.items : [];
+      if (!items.length) { auditEl.textContent = '(none)'; return; }
+      const rows = items.map(row => {
+        const when = row.ts ? new Date(row.ts).toLocaleString() : '';
+        const who = [row.eventId, row.attendee].filter(Boolean).join(' • ');
+        return `<div>${when} • ${row.status} • ${who || '(anon)'} • ${row.ip || ''}</div>`;
+      }).join('');
+      auditEl.innerHTML = rows;
+    } catch { auditEl.textContent = '(failed to load)'; }
+  }
+  const refreshAuditBtn = document.getElementById('refreshAudit');
+  if (refreshAuditBtn) refreshAuditBtn.onclick = renderAudit;
+  renderAudit();
+
+})();
+</script>
+</body>
+</html>

@@ -1,15 +1,30 @@
+# -------------------------
 # Node
+# -------------------------
 node_modules/
 npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.tmp
+*.swp
 
-# OS/Editor
+# -------------------------
+# OS / Editor
+# -------------------------
 .DS_Store
 Thumbs.db
+.vscode/
 
-# Environment
+# -------------------------
+# Environment & Secrets
+# -------------------------
 .env
+.dev.vars
 
+# -------------------------
 # Aider / Continue artifacts
+# -------------------------
 .aider*
 *.aider
 .continue/
@@ -20,3 +35,21 @@ Thumbs.db
 # Local helper files (don’t commit)
 goal.txt
 fix-search.txt
+signed-url.txt
+
+# -------------------------
+# Cloudflare Wrangler
+# -------------------------
+.wrangler/
+
+# -------------------------
+# Build outputs / Coverage
+# -------------------------
+dist/
+coverage/
+
+# -------------------------
+# Python virtual environments
+# -------------------------
+.venv/
+ops/.venv/

@@ -1,0 +1,1984 @@
+[2025-08-16T01:05:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:05:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:05:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:06:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:06:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:07:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:07:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:05][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:05][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:40][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:40][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:08:58][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:08:58][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:38][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:38][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:09:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:09:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:05][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:05][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:30][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:30][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:40][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:40][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:10:58][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:10:58][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:11:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:11:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:30][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:30][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:12:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:12:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:05][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:05][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:13:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:13:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:14:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:14:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:15:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:15:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:16:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:16:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:17:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:17:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:18:58][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:18:58][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:38][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:38][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:19:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:19:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:30][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:30][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:40][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:40][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:20:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:20:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:21:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:21:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:21:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:21:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:21:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:21:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:21:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:21:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:22:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:22:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:22:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:22:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:23:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:23:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:24:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:24:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:25:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:25:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:26:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:26:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:27:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:27:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:05][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:05][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:28:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:28:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:30][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:30][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:40][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:40][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:29:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:29:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:30:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:30:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:40][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:40][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:31:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:31:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:32:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:32:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:38][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:38][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:33:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:33:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:30][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:30][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+[2025-08-16T01:34:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 2 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:38][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 6 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:38][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:40][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 7 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:40][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 8 9 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 8 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 9 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 7 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 4 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 1 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 9 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:58][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 0 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:58][SERVER] DONE ok=True code=0
+[2025-08-16T01:34:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 2 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:34:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 8 9 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 9 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 2 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 2 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 7 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 5 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 3 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 4 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 6 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 7 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 1 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 1 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 7 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 2 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 2 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:30][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 6 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:30][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 3 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 5 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 7 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:40][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 0 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:40][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 1 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 9 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 4 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 6 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 6 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:50][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 7 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:50][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 7 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 2 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 9 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 0 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:35:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 5 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:35:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 3 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 5 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 9 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 7 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 1 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 2 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 0 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 3 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 1 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 6 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 6 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 8 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 3 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 5 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 6 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 6 7 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 0 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 3 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:38][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 0 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:38][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 3 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   f a i l e d :   T h e   o p e r a t i o n   h a s   t i m e d   o u t .  
+ [2025-08-16T01:36:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 0 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 1 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 7 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 2 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 4 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 4 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 2 7 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 9 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:36:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 0 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:36:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 5 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 6 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:05][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 1 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:05][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 4 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 6 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 8 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 0 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 8 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 9 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 5 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 0 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 9 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 9 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 4 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 5 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 5 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 3 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 6 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 8 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   f a i l e d :   T h e   o p e r a t i o n   h a s   t i m e d   o u t .  
+ [2025-08-16T01:37:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 0 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 1 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 8 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 6 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 3 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 0 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 4 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 4 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:37:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 7 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:37:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 1 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 0 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 5 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 4 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 9 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 8 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 3 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 0 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 3 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 7 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 3 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 0 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 3 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 5 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 3 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 6 3 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 0 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 8 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:35][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 0 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:35][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 4 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 1 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 9 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:45][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 8 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:45][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 9 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 0 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 0 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:55][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 8 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:55][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 0 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:38:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 2 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:38:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 9 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 7 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:05][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 9 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:05][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 4 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 3 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 6 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 2 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 3 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 9 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 8 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 5 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 4 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 2 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 7 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 8 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 4 3 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 3 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 6 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 7 9 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 6 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 1 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:38][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 0 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:38][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 8 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 6 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 5 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 9 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 9 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 5 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 5 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 1 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 9 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 8 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:39:58][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 4 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:39:58][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:00][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 7 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:00][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 1 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:03][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 6 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:03][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:05][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 5 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:05][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 1 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:08][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 4 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:08][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:10][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 2 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:10][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 5 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:13][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 6 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:13][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:15][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 8 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:15][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 8 9 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:18][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:18][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:20][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 3 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:20][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 4 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 4 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 6 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:28][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 7 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:28][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 5 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 9 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 5 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 3 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 9 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:38][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 8 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:38][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 2 7 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:43][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 6 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:43][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 6 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 0 3 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 7 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 0 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 5 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 2 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 4 9 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 0 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 9 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:40:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 1 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:40:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 1 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 7 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 9 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 8 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 6 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 4 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 4 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 9 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 2 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 7 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 7 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 9 7 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 3 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 3 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:25][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 0 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:25][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 1 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 7 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:30][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 1 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:30][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:32][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:32][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 2 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 5 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 3 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 1 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 3 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 1 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 1 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 9 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:47][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 5 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:47][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 1 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 4 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:52][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 0 7 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:52][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 0 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 1 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:57][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 4 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:57][SERVER] DONE ok=True code=0
+[2025-08-16T01:41:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 6 4 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:41:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 3 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 3 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 0 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 4 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 2 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 7 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 5 9 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 4 6 5 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   f a i l e d :   T h e   o p e r a t i o n   h a s   t i m e d   o u t .  
+ [2025-08-16T01:42:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 1 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 6 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 7 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 3 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:23][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 3 0 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:23][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 5 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 0 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 5 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 9 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:29][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:31][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 9 5 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:31][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:33][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 9 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:33][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:34][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 3 2 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:34][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:36][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 6 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:36][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:37][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:37][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:39][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 8 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:39][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:41][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 8 2 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:41][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:42][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 8 7 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:42][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:44][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 2 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:44][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:46][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:46][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:48][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 6 8 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:48][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:49][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 0 7 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:49][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:51][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 2 0 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:51][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:53][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 2 8 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:53][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:54][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 6 8 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:54][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:56][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 3 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:56][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:58][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 3 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:58][SERVER] DONE ok=True code=0
+[2025-08-16T01:42:59][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 3 9 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:42:59][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:01][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 7 5 4 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:01][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:02][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 3 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:02][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:04][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 7 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:04][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:06][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 5 5 4 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:06][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:07][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 6 9 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:07][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:09][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 4 1 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:09][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:11][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 4 3 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:11][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:12][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 1 1 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:12][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:14][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 8 6 4   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:14][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:16][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 9 8 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:16][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:17][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 5 6 0   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:17][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:19][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 1 4 7 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:19][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:21][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 2 5 0 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:21][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:22][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 6 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:22][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:24][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 9 2 8   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:24][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:26][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 1 0 9 9 2   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:26][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:27][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1
+S t a r t e d   n o d e   p i d = 2 1 7 6   s c r i p t = C : \ U s e r s \ k i m h y \ D e s k t o p \ S t a t e I D - A p p \ s r c \ s e r v e r . m j s  
+ H e a l t h   p r o b e   s t a t u s :   2 0 0  
+ [2025-08-16T01:43:27][SERVER] DONE ok=True code=0
+[2025-08-16T01:43:29][SERVER] RUN  powershell -NoProfile -ExecutionPolicy Bypass -File .\ops\server-run.ps1

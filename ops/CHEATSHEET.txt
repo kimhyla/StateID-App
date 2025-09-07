@@ -1,0 +1,72 @@
+Coding notes
+- Node 22, ESM only (.mjs). Use native crypto (createHmac), URL API, and fs/promises.
+- Token format: "v1.<base64url(payload)>.sha256sig"
+  payload fields: urlOriginal, eventId?, attendee?, exp (unix seconds), kid:"v1"
+- base64url: no padding; replace +/ with -_; use Buffer URL variant.
+- Validation: urlOriginal must start with http:// or https://. 400 on bad input.
+- /w/:token behavior:
+  • Verify HMAC + exp; if invalid/expired → 400 {error:{code,message}}
+  • On success, append ledger row then res.redirect(302, urlOriginal).
+- Request IDs: crypto.randomUUID(); include in logs + ledger.
+- Ledger path: LEDGER_PATH or ops/ledger/attendee-events.jsonl. Ensure dir exists.
+- JSONL: one compact JSON per line, UTF-8 (no BOM).
+- /audit tailing: read file size, slice last N lines (cheap scan). If file missing, return {items:[]}.
+- /export.csv: write header columns: ts,request_id,token_kid,eventId,attendee,ip,ua,status,latency_ms
+  Filter by ?start=YYYY-MM-DD or ISO (inclusive) and ?end=… (exclusive). If absent, include all.
+
+Error shape (consistent):
+{ "error": { "code": "BadRequest|Unauthorized|Expired|Internal", "message": "…" } }
+
+Accessibility & UI:
+- Label inputs; show errors in a role="alert" region; disable submit while pending.
+- Keep vanilla JS; no build step. Keep current page layout intact.
+
+Perf:
+- Just record timings; p95 target enforced later. No geo yet (that’s M2+).
+
+Windows-friendly:
+- No POSIX-only paths; always use path.join.
+- File writes: appendFile with { flag:"a" }. Don’t hold the file open.
+- Use CRLF tolerant reads; treat trailing blank lines safely.
+
+Acceptance
+- POST /wrap returns {token,url}. Token verifies and includes exp ~6h.
+- GET /w/:token responds 302 to original; ledger row appended with status="ok".
+- Invalid token → 400 JSON error (no redirect). Expired token → 400 code="Expired".
+- /audit?limit=3 returns last 3 items (most recent first).
+- /export.csv downloads with header + at least the recent rows.
+
+File layout (suggested)
+- src/lib/token.mjs  → signWrap(payload), verifyWrap(token)
+- src/lib/ledger.mjs → append(row), tail(limit)
+- src/server.mjs     → wire routes (/wrap, /w/:token, /audit, /export.csv)
+
+QA test script (PowerShell)
+$Base="http://localhost:3000"
+# 1) Create wrapper
+$wrap = Invoke-RestMethod -Method POST -Uri "$Base/wrap" -ContentType "application/json" -Body (@{
+  urlOriginal = "https://example.com/meet/abc";
+  eventId = "ev-123";
+  attendee = "user@example.com"
+} | ConvertTo-Json -Depth 5)
+$wrap
+
+# 2) Follow wrapper (expect 302)
+try {
+  Invoke-WebRequest -Method GET -Uri ($Base + $wrap.url) -MaximumRedirection 0
+} catch {
+  $_.Exception.Response | Select-Object StatusCode, Headers
+}
+
+# 3) Audit tail
+Invoke-RestMethod -Method GET -Uri "$Base/audit?limit=5"
+
+# 4) CSV export (last day)
+$y=(Get-Date).AddDays(-1).ToString("s")
+Invoke-WebRequest -Method GET -Uri "$Base/export.csv?start=$y" -OutFile "ops\outbox\audit-latest.csv"
+"CSV saved to ops\\outbox\\audit-latest.csv" | Write-Host
+
+Edge cases to cover
+- POST /wrap with bad URL → 400 JSON error.
+- GET /w/:token with tampered token → 400 code="Unauthorized".
+- GET /w/:token with expired token (manually edit exp in payload during test) → 400 code="Expired".
