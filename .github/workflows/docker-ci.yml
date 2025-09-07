@@ -1,13 +1,17 @@
-name: ci
+name: CI
 
 on:
-  push:
-    branches:
-      - main
-      - mvp-redirect-worker
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
+    # Only run backend tests when backend-facing files change.
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'src/**'
+      - 'server/**'
+      - 'test/*.test.js'   # top-level backend tests only
+      - '!src/edge/**'
+      - '!test/edge/**'
 
 jobs:
   test:
@@ -21,19 +25,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22.x'
-          cache: 'npm'
 
       - name: Install deps
         run: npm ci
 
-      - name: Backend unit tests (only if src/server.js exists)
-        if: ${{ hashFiles('src/server.js') != '' }}
-        run: npm test
-
-      - name: Skip backend unit tests (no src/server.js)
-        if: ${{ hashFiles('src/server.js') == '' }}
-        run: echo "Skipping backend tests: src/server.js not present on this branch."
-
-      - name: Edge worker tests (if present)
-        if: ${{ hashFiles('test/edge/**/*.mts') != '' }}
-        run: npm run edge:test
+      - name: Unit tests
+        run: node --test "test/*.test.js"
