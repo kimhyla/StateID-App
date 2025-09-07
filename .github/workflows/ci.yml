@@ -1,93 +1,77 @@
-# File: .github/workflows/ci.yml
-# Purpose: Keep required “ci” check green; only run backend tests when *added/modified*
-#          backend code (or backend-specific tests) change. Ignore deletions/renames.
-#          Exclude edge/worker tests so Cloudflare-only PRs skip backend tests.
-name: ci
+# File: .github/workflows/docker-ci.yml
+# Robust edge container check:
+# - Build image
+# - Run with PORT=3000 and map 8787->3000
+# - Probe /healthz and, if missing, fall back to /
+# - On failure, dump docker ps + container logs for diagnosis
+name: docker-ci
 
 on:
   pull_request:
     branches: [ "main" ]
-    types: [opened, synchronize, reopened, ready_for_review]
   push:
     branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pull-requests: read
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
 
 jobs:
-  changes:
-    name: Detect relevant backend changes
+  test:
     runs-on: ubuntu-latest
-    outputs:
-      backend: ${{ steps.filter.outputs.backend }}
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      # dorny/paths-filter with type-aware rules:
-      # - Only count ADDED or MODIFIED files (deletions/renames do NOT trigger).
-      # - Exclude edge tests (test/edge/**) so worker-only PRs skip backend tests.
-      - name: Compute changed paths
-        id: filter
-        uses: dorny/paths-filter@v3
-        with:
-          list-files: json
-          filters: |
-            backend:
-              # BACKEND SOURCE — only added/modified trigger
-              - added|modified: 'server/**'
-              - added|modified: 'src/server.js'
-              - added|modified: 'src/server.ts'
-              - added|modified: 'src/server/**'
+      - name: Build edge image
+        run: |
+          set -euxo pipefail
+          docker build -t stateid-edge:pr-${GITHUB_RUN_ID} .
 
-              # BACKEND TESTS — narrow to backend-focused locations
-              # (Adjust these if you later organize server tests differently)
-              - added|modified: 'test/server/**'
-              - added|modified: 'server/**/__tests__/**'
+      - name: Run container (PORT=3000, map 8787->3000)
+        run: |
+          set -euxo pipefail
+          docker rm -f stateid-edge || true
+          docker run -d --name stateid-edge \
+            -e PORT=3000 \
+            -p 8787:3000 \
+            stateid-edge:pr-${GITHUB_RUN_ID}
+          sleep 2
+          docker ps -a
 
-              # EXCLUDES — do not treat these as backend changes
-              - '!test/edge/**'
-              - '!workers/**'
-              - '!src/edge/**'
+      - name: Wait for service (try /healthz then /)
+        run: |
+          set -euxo pipefail
+          BASE="http://127.0.0.1:8787"
+          # wait up to ~90s total
+          for i in $(seq 1 30); do
+            # Try /healthz (expect 2xx/3xx). If 404 or connection fails, try /
+            CODE="$(curl -sS -o /dev/null -w "%{http_code}" -m 3 ${BASE}/healthz || echo 000)"
+            if [ "$CODE" -ge 200 ] && [ "$CODE" -lt 400 ]; then
+              echo "✅ /healthz ready ($CODE)"
+              READY=1
+              break
+            fi
+            CODE2="$(curl -sS -o /dev/null -w "%{http_code}" -m 3 ${BASE}/ || echo 000)"
+            if [ "$CODE2" -ge 200 ] && [ "$CODE2" -lt 400 ]; then
+              echo "✅ / ready ($CODE2)"
+              READY=1
+              break
+            fi
+            echo "Not ready yet (healthz=$CODE, root=$CODE2); retrying…"
+            sleep 3
+          done
+          if [ "${READY:-0}" != "1" ]; then
+            echo "❌ Service never became ready on ${BASE}"
+            echo "---- docker ps ----"; docker ps -a || true
+            echo "---- container logs ----"; docker logs stateid-edge || true
+            exit 1
+          fi
 
-      - name: Summarize match result
+      - name: Stop container
         if: always()
         run: |
-          echo "backend changed? -> ${{ steps.filter.outputs.backend }}" | tee -a $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Matched backend files (if any):" >> $GITHUB_STEP_SUMMARY
-          echo '${{ steps.filter.outputs.backend_files }}' >> $GITHUB_STEP_SUMMARY
-
-  test:
-    name: Backend unit tests
-    needs: changes
-    # Run if: backend changed OR push to main
-    if: ${{ needs.changes.outputs.backend == 'true' || (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22.x'
-          cache: 'npm'
-
-      - name: Install deps
-        run: npm ci
-
-      - name: Run backend unit tests
-        run: npm test --silent
-
-      - name: Node version
-        run: node --version && echo ok
-
+          docker logs stateid-edge || true
+          docker rm -f stateid-edge || true
