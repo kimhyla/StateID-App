@@ -1,17 +1,26 @@
-name: CI
+name: ci
 
 on:
   pull_request:
     branches: [ main ]
-    # Only run backend tests when backend-facing files change.
     paths:
       - 'package.json'
       - 'package-lock.json'
-      - 'src/**'
       - 'server/**'
-      - 'test/*.test.js'   # top-level backend tests only
-      - '!src/edge/**'
-      - '!test/edge/**'
+      - 'src/server.js'
+      - 'src/server.ts'
+      - 'src/server/**'
+      - 'test/*.test.js'
+  push:
+    branches: [ main, mvp-redirect-worker ]
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'server/**'
+      - 'src/server.js'
+      - 'src/server.ts'
+      - 'src/server/**'
+      - 'test/*.test.js'
 
 jobs:
   test:
@@ -31,3 +40,8 @@ jobs:
 
       - name: Unit tests
         run: node --test "test/*.test.js"
+
+      - name: Smoke test
+        run: |
+          node --version
+          echo ok
