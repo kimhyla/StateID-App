@@ -1,1 +1,34 @@
-﻿<PASTE THE YAML FROM ABOVE HERE>
+name: ci
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ mvp-redirect-worker ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install deps (clean)
+        run: npm ci
+
+      # Run ONLY the edge tests on this branch/PR
+      - name: Unit tests (edge only)
+        run: npm run edge:test
+
+      # Optional quick smoke of version endpoint if present; don't fail the build
+      - name: Smoke test
+        if: always()
+        run: |
+          node -e "console.log('skip smoke on PR branch')"
