@@ -1,35 +1,48 @@
+# File: .github/workflows/ci.yml
+# Purpose: Keep required “ci” check green; only run backend tests when backend code/tests changed.
+# Triggers: PRs → main; pushes → main (always test on main).
 name: ci
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
+    types: [opened, synchronize, reopened, ready_for_review]
   push:
-    branches: [ main ]
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+# Avoid duplicate runs for same ref
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   changes:
-    name: Detect backend changes
+    name: Detect relevant backend changes
     runs-on: ubuntu-latest
     outputs:
-      server: ${{ steps.filter.outputs.server }}
-    permissions:
-      contents: read
-      pull-requests: read
+      backend: ${{ steps.filter.outputs.backend }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-      - name: Compute change set
+          fetch-depth: 0  # reliable diffs for PRs/pushes
+      - name: Compute changed paths
         id: filter
         uses: dorny/paths-filter@v3
         with:
+          list-files: json
           filters: |
-            server:
+            backend:
+              # Server/back-end source (adjust as needed)
               - 'server/**'
               - 'src/server.js'
               - 'src/server.ts'
               - 'src/server/**'
+              # Back-end tests (JS/TS + ESM variants)
               - 'test/**/*.test.js'
               - 'test/**/*.spec.js'
               - 'test/**/*.test.ts'
@@ -38,45 +51,34 @@ jobs:
               - 'test/**/*.spec.mjs'
               - 'test/**/*.test.mts'
               - 'test/**/*.spec.mts'
+              # We intentionally DO NOT include package.json/lockfiles to avoid false positives
+      - name: Summarize match result
+        if: always()
+        run: |
+          echo "backend changed? -> ${{ steps.filter.outputs.backend }}" | tee -a $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Matched backend files (if any):" >> $GITHUB_STEP_SUMMARY
+          echo '${{ steps.filter.outputs.backend_files }}' >> $GITHUB_STEP_SUMMARY
 
-  tests:
-    name: tests
+  test:
+    name: Backend unit tests
     needs: changes
+    # Run if: backend changed OR push to main
+    if: ${{ needs.changes.outputs.backend == 'true' || (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: read
-      pull-requests: read
     steps:
       - uses: actions/checkout@v4
-
-      - name: Decide whether to run tests
-        id: decide
-        run: |
-          if [ "${{ needs.changes.outputs.server }}" = "true" ] || [ "${{ github.ref }}" = "refs/heads/main" ]; then
-            echo "run_tests=true" >> $GITHUB_OUTPUT
-          else
-            echo "run_tests=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: No backend changes � skipping tests
-        if: steps.decide.outputs.run_tests != 'true'
-        run: echo "No backend changes detected on this PR; skipping backend tests."
-
-      - name: Setup Node
-        if: steps.decide.outputs.run_tests == 'true'
-        uses: actions/setup-node@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        if: always()
         with:
           node-version: '22.x'
-
+          cache: 'npm'
       - name: Install deps
-        if: steps.decide.outputs.run_tests == 'true'
         run: npm ci
-
       - name: Run backend unit tests
-        if: steps.decide.outputs.run_tests == 'true'
         run: npm test --silent
-
       - name: Node version
-        if: steps.decide.outputs.run_tests == 'true'
-        run: node --version
+        run: node --version && echo ok
