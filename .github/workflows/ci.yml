@@ -1,1 +1,82 @@
-<PASTE THE YAML ABOVE, EXACTLY>
+name: ci
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  changes:
+    name: Detect backend changes
+    runs-on: ubuntu-latest
+    outputs:
+      server: ${{ steps.filter.outputs.server }}
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Compute change set
+        id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            server:
+              - 'server/**'
+              - 'src/server.js'
+              - 'src/server.ts'
+              - 'src/server/**'
+              - 'test/**/*.test.js'
+              - 'test/**/*.spec.js'
+              - 'test/**/*.test.ts'
+              - 'test/**/*.spec.ts'
+              - 'test/**/*.test.mjs'
+              - 'test/**/*.spec.mjs'
+              - 'test/**/*.test.mts'
+              - 'test/**/*.spec.mts'
+
+  tests:
+    name: tests
+    needs: changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Decide whether to run tests
+        id: decide
+        run: |
+          if [ "${{ needs.changes.outputs.server }}" = "true" ] || [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            echo "run_tests=true" >> $GITHUB_OUTPUT
+          else
+            echo "run_tests=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: No backend changes — skipping tests
+        if: steps.decide.outputs.run_tests != 'true'
+        run: echo "No backend changes detected on this PR; skipping backend tests."
+
+      - name: Setup Node
+        if: steps.decide.outputs.run_tests == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+
+      - name: Install deps
+        if: steps.decide.outputs.run_tests == 'true'
+        run: npm ci
+
+      - name: Run backend unit tests
+        if: steps.decide.outputs.run_tests == 'true'
+        run: npm test --silent
+
+      - name: Node version
+        if: steps.decide.outputs.run_tests == 'true'
+        run: node --version
