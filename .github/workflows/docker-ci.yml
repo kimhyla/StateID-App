@@ -1,11 +1,7 @@
 # File: .github/workflows/docker-ci.yml
 # Purpose: Build and run a light "edge container" that exposes /healthz so PRs can pass.
-# Notes:
-# - Uses a dedicated Dockerfile that does NOT try to run src/server.js.
-# - Maps container 3000 -> host 8787 and waits for /healthz and /.
-# - Dumps container logs if anything goes wrong.
 
-name: docker-ci
+name: edge-ci
 
 on:
   pull_request:
@@ -24,7 +20,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  test:
+  edge:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
