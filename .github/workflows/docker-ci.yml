@@ -22,7 +22,7 @@ jobs:
         run: docker build -t stateid-app:${{ github.sha }} .
 
       - name: Run container
-        run: docker run -d --rm -p 8787:8787 --name stateid stateid-app:${{ github.sha }}
+        run: docker run -d --rm -e PORT=3000 -p 8787:3000 --name stateid stateid-app:${{ github.sha }}
 
       - name: Wait for /healthz
         run: |
