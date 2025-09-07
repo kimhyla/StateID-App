@@ -1,47 +1,69 @@
-name: ci
+name: docker-ci
 
 on:
   pull_request:
-    branches: [ main ]
-    paths:
-      - 'package.json'
-      - 'package-lock.json'
-      - 'server/**'
-      - 'src/server.js'
-      - 'src/server.ts'
-      - 'src/server/**'
-      - 'test/*.test.js'
+    branches: [ "main" ]
   push:
-    branches: [ main, mvp-redirect-worker ]
-    paths:
-      - 'package.json'
-      - 'package-lock.json'
-      - 'server/**'
-      - 'src/server.js'
-      - 'src/server.ts'
-      - 'src/server/**'
-      - 'test/*.test.js'
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22.x'
-
-      - name: Install deps
-        run: npm ci
-
-      - name: Unit tests
-        run: node --test "test/*.test.js"
-
-      - name: Smoke test
+      - name: Build edge image
         run: |
-          node --version
-          echo ok
+          set -euxo pipefail
+          docker build -t stateid-edge:pr-${GITHUB_RUN_ID} .
+
+      - name: Run container (PORT=3000, map 8787->3000)
+        run: |
+          set -euxo pipefail
+          docker rm -f stateid-edge || true
+          docker run -d --name stateid-edge \
+            -e PORT=3000 \
+            -p 8787:3000 \
+            stateid-edge:pr-${GITHUB_RUN_ID}
+          # Show quick status
+          sleep 2
+          docker ps -a
+
+      - name: Wait for /healthz
+        run: |
+          set -euxo pipefail
+          ATTEMPTS=30
+          until curl -fsS -m 3 -v http://127.0.0.1:8787/healthz; do
+            ATTEMPTS=$((ATTEMPTS-1))
+            if [ "$ATTEMPTS" -le 0 ]; then
+              echo "❌ healthz never became ready"
+              echo ""
+              echo "---- docker ps ----"
+              docker ps -a || true
+              echo "---- container logs ----"
+              docker logs stateid-edge || true
+              exit 1
+            fi
+            echo "health not ready; retrying…"
+            sleep 3
+          done
+          echo "✅ healthz OK"
+
+      # Optional: one more ultra-light check (remove if not served)
+      - name: Sanity GET /
+        run: |
+          set -euxo pipefail
+          curl -fsS -m 3 -v http://127.0.0.1:8787/ || true
+
+      - name: Stop container
+        if: always()
+        run: |
+          docker logs stateid-edge || true
+          docker rm -f stateid-edge || true
